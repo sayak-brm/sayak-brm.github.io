@@ -15,6 +15,9 @@ before_install:
 install:
   - sudo python3 hugo.py
 
+before_script:
+    - rm -rf public 2> /dev/null
+
 script:
   - hugo
 
@@ -25,7 +28,7 @@ deploy:
     on:
       branch: hugo
   - provider: pages
-    token: $GITHUB_TOKEN
+    github_token: $GITHUB_TOKEN
     local_dir: public
     target_branch: master
     skip_cleanup: true
