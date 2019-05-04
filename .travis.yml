@@ -1,0 +1,28 @@
+branches:
+  only:
+    - hugo
+
+sudo: true
+
+before_install:
+  - export TZ=Asia/Kolkata
+
+install:
+  - sudo apt-get install hugo
+
+script:
+  - hugo
+
+deploy:
+  - provider: firebase
+    token: $FIREBASE_TOKEN
+    skip_cleanup: true
+    on:
+      branch: hugo
+  - provider: pages
+    token: $GITHUB_TOKEN
+    local_dir: public
+    target_branch: master
+    skip_cleanup: true
+    on:
+      branch: hugo
