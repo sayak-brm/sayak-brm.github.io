@@ -1,13 +1,19 @@
+dist: xenial
+
+language: python
+
+python:
+  - "3.6"
+
 branches:
   only:
     - hugo
 
 before_install:
   - export TZ=Asia/Kolkata
-  - sudo apt-get update
 
 install:
-  - sudo apt-get install hugo
+  - sudo python3 hugo.py
 
 script:
   - hugo
