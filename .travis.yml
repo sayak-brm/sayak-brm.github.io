@@ -2,13 +2,12 @@ branches:
   only:
     - hugo
 
-sudo: true
-
 before_install:
   - export TZ=Asia/Kolkata
+  - sudo apt-get update
 
 install:
-  - sudo snap install hugo --channel=extended
+  - sudo apt-get install hugo
 
 script:
   - hugo
