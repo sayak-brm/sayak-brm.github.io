@@ -1,13 +1,13 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
-  themeColor = "#00ffa2"
 
 title = "Sayak B"
 subtitle = ""
 keywords = ""
 copyright = "Sayak B"
 readOtherPosts = "Read other posts"
+rssLimit  = 10  # Maximum number of items in the RSS feed.
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -24,6 +24,9 @@ readOtherPosts = "Read other posts"
   contentTypeName = "posts"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
+  themeColor = "#00ffa2"
+
+  homeSubtitle = "Jack of All Trades"
 
   [params.logo]
     logoText = "$ cd /home/sayak-b"
@@ -31,20 +34,20 @@ readOtherPosts = "Read other posts"
 
   # Social icons
   [[params.social]]
-    name = "instagram"
-    url  = "https://soundcloud.com/sayak-b"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:me@sayakb.com"
+    name = "google"
+    url  = "https://g.co/kgs/4S2KEV"
 
   [[params.social]]
     name = "github"
     url  = "https://github.com/sayak-brm"
 
   [[params.social]]
-    name = "linkedin"
-    url  = "https://www.linkedin.com/"
+    name = "instagram"
+    url  = "https://soundcloud.com/sayakbrm"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@sayakb.com"
 
 # And you can even create generic menu
 [menu]
