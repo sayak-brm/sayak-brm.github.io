@@ -1,6 +1,13 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend-ng"
+  themeColor = "#00ffa2"
+
+title = "Sayak B"
+subtitle = ""
+keywords = ""
+copyright = "Sayak B"
+readOtherPosts = "Read other posts"
 
 [params]
   dateform        = "Jan 2, 2006"
@@ -18,32 +25,26 @@ theme = "hello-friend-ng"
   # Default theme "light" or "dark"
   defaultTheme = "dark"
 
-[languages]
-  [languages.en]
-    title = "Sayak B"
-    subtitle = "Jack of All Trades"
-    keywords = ""
-    copyright = "Sayak B"
-    readOtherPosts = "Read other posts"
+  [params.logo]
+    logoText = "$ cd /home/sayak-b"
+    logoHomeLink = "/"
 
-    [languages.en.params.logo]
-      logoText = "$ cd /home/sayak-b"
-      logoHomeLink = "/"
-    # or
-    #
-    # path = "/img/your-example-logo.svg"
-    # alt = "Your example logo alt text"
+  # Social icons
+  [[params.social]]
+    name = "instagram"
+    url  = "https://soundcloud.com/sayak-b"
 
-	# You can create a language based menu
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
-      [[languages.en.menu.main]]
-        identifier = "posts"
-        name = "Posts"
-        url = "/posts"
+  [[params.social]]
+    name = "email"
+    url  = "mailto:me@sayakb.com"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/sayak-brm"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/"
 
 # And you can even create generic menu
 [menu]
