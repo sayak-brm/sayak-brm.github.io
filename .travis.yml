@@ -5,15 +5,17 @@ language: python
 python:
   - "3.6"
 
+addons:
+  apt:
+    packages:
+      - hugo
+
 branches:
   only:
     - hugo
 
 before_install:
   - export TZ=Asia/Kolkata
-
-install:
-  - sudo python3 hugo.py
 
 before_script:
     - rm -rf public 2> /dev/null
