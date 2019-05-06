@@ -6,17 +6,15 @@ python:
   - "3.6"
 
 addons:
-  snap:
+  snaps:
     - hugo
 
 branches:
   only:
     - hugo
 
-before_install:
-  - export TZ=Asia/Kolkata
-
 before_script:
+  - export TZ=Asia/Kolkata
     - rm -rf public 2> /dev/null
 
 script:
