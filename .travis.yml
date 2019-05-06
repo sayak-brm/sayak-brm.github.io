@@ -6,9 +6,8 @@ python:
   - "3.6"
 
 addons:
-  apt:
-    packages:
-      - hugo
+  snap:
+    - hugo
 
 branches:
   only:
