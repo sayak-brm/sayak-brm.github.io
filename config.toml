@@ -56,6 +56,10 @@ rssLimit  = 10  # Maximum number of items in the RSS feed.
     name       = "About"
     url        = "/about"
   [[menu.main]]
+    identifier = "music"
+    name       = "Music"
+    url        = "/music"
+  [[menu.main]]
     identifier = "posts"
     name       = "Posts"
     url        = "/posts"
