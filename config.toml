@@ -8,10 +8,6 @@ subtitle = ""
 theme = "hello-friend-ng"
 title = "Sayak B"
 [[menu.main]]
-name = "SAYAKB.COM"
-url = "https://sayakb.com"
-weight = 4
-[[menu.main]]
 identifier = "posts"
 name = "Posts"
 url = "/posts"
