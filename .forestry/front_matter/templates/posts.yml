@@ -7,3 +7,5 @@ fields:
   config: {}
   template: page
   label: Page
+pages:
+- content/posts/test.html
