@@ -9,6 +9,9 @@ copyright = "Sayak B"
 readOtherPosts = "Read other posts"
 rssLimit  = 10  # Maximum number of items in the RSS feed.
 
+[sitemap]
+  priority = 0.9
+
 [params]
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"
