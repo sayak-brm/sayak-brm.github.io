@@ -4,11 +4,16 @@ auto_deploy: true
 admin_path: static/admin
 webhook_url: 
 sections:
+- type: document
+  path: content/about.html
+  label: About
+  match: "**/*"
 - type: directory
-  path: content
-  label: Pages
+  path: content/music
+  label: Music
   create: all
-  match: "*"
+  match: "**/*"
+  new_doc_ext: ".html"
 - type: directory
   path: content/posts
   label: Posts
