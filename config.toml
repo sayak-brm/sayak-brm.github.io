@@ -8,20 +8,20 @@ subtitle = ""
 theme = "hello-friend-ng"
 title = "Sayak B"
 [[menu.main]]
-identifier = "posts"
-name = "Posts"
-url = "/posts"
-weight = 2
-[[menu.main]]
 identifier = "music"
 name = "Music"
 url = "/music"
-weight = 1
+weight = 2
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 3
 [[menu.main]]
 identifier = "about"
 name = "About"
 url = "/about"
-weight = 3
+weight = 1
 [params]
 contentTypeName = "posts"
 dateform = "Jan 2, 2006"
