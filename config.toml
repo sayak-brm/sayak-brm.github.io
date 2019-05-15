@@ -1,68 +1,57 @@
 baseurl = "/"
-languageCode = "en-us"
-theme = "hello-friend-ng"
-
-title = "Sayak B"
-subtitle = ""
-keywords = ""
 copyright = "Sayak B"
+keywords = ""
+languageCode = "en-us"
 readOtherPosts = "Read other posts"
-rssLimit  = 10  # Maximum number of items in the RSS feed.
-
-[sitemap]
-  priority = 0.9
-
+rssLimit = 10
+subtitle = ""
+theme = "hello-friend-ng"
+title = "Sayak B"
+[[menu.main]]
+name = "SAYAKB.COM"
+url = "https://sayakb.com"
+weight = 4
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 2
+[[menu.main]]
+identifier = "music"
+name = "Music"
+url = "/music"
+weight = 1
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 3
 [params]
-  dateform        = "Jan 2, 2006"
-  dateformShort   = "Jan 2"
-  dateformNum     = "02-01-2006"
-  dateformNumTime = "02-01-2006 15:04 -0700"
-
-  # Metadata mostly used in document's head
-  description = "Sayak B | Jack of All Trades"
-  keywords = "homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer"
-  images = [""]
-
-  # Directory name of your blog content (default is `content/posts`)
-  contentTypeName = "posts"
-  # Default theme "light" or "dark"
-  defaultTheme = "dark"
-  themeColor = "#00ffa2"
-
-  homeSubtitle = "Jack of All Trades"
-
-  [params.logo]
-    logoText = "$ cd /home/sayak-b"
-    logoHomeLink = "/"
-
-  # Social icons
-  [[params.social]]
-    name = "google"
-    url  = "https://g.co/kgs/4S2KEV"
-
-  [[params.social]]
-    name = "github"
-    url  = "https://github.com/sayak-brm"
-
-  [[params.social]]
-    name = "instagram"
-    url  = "https://soundcloud.com/sayakbrm"
-
-  [[params.social]]
-    name = "email"
-    url  = "mailto:me@sayakb.com"
-
-# And you can even create generic menu
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
-  [[menu.main]]
-    identifier = "music"
-    name       = "Music"
-    url        = "/music"
-  [[menu.main]]
-    identifier = "posts"
-    name       = "Posts"
-    url        = "/posts"
+contentTypeName = "posts"
+dateform = "Jan 2, 2006"
+dateformNum = "02-01-2006"
+dateformNumTime = "02-01-2006 15:04 -0700"
+dateformShort = "Jan 2"
+defaultTheme = "dark"
+description = "Sayak B | Jack of All Trades"
+homeSubtitle = "Jack of All Trades"
+images = [""]
+keywords = "homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer"
+themeColor = "#00ffa2"
+[params.logo]
+logoHomeLink = "/"
+logoText = "$ cd /home/sayak-b"
+[[params.social]]
+name = "google"
+url = "https://g.co/kgs/4S2KEV"
+[[params.social]]
+name = "github"
+url = "https://github.com/sayak-brm"
+[[params.social]]
+name = "instagram"
+url = "https://soundcloud.com/sayakbrm"
+[[params.social]]
+name = "email"
+url = "mailto:me@sayakb.com"
+[sitemap]
+priority = 0.9
