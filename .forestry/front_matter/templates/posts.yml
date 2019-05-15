@@ -1,4 +1,9 @@
 ---
 label: Posts
 hide_body: false
-fields: []
+fields:
+- name: page
+  type: include
+  config: {}
+  template: page
+  label: Page
