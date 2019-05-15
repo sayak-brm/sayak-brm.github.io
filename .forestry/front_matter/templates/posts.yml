@@ -7,3 +7,8 @@ fields:
   config: {}
   template: page
   label: Page
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Post Tags
