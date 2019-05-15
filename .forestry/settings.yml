@@ -7,13 +7,12 @@ sections:
 - type: document
   path: content/about.html
   label: About
-  match: "**/*"
 - type: directory
   path: content/music
   label: Music
   create: all
   match: "**/*"
-  new_doc_ext: ".html"
+  new_doc_ext: html
 - type: directory
   path: content/posts
   label: Posts
