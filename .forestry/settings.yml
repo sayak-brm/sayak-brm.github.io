@@ -5,14 +5,14 @@ admin_path: static/admin
 webhook_url: 
 sections:
 - type: document
-  path: content/about.html
+  path: content/about.md
   label: About
 - type: directory
   path: content/music
   label: Music
   create: all
   match: "**/*"
-  new_doc_ext: html
+  new_doc_ext: ''
 - type: directory
   path: content/posts
   label: Posts
