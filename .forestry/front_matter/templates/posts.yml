@@ -12,7 +12,7 @@ fields:
   type: textarea
   default: ''
   config:
-    required: false
+    required: true
     wysiwyg: false
     schema:
       format: markdown
