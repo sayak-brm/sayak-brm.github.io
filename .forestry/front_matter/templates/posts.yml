@@ -7,11 +7,6 @@ fields:
   config: {}
   template: page
   label: Page
-- name: tags
-  type: tag_list
-  default: []
-  label: Tags
-  description: Post Tags
 - name: summary
   type: textarea
   default: ''
@@ -22,3 +17,8 @@ fields:
       format: markdown
   label: Summary
   description: Description of content
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
+  description: Post Tags
