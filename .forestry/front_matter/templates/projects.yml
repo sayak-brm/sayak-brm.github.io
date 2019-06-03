@@ -2,11 +2,6 @@
 label: Projects
 hide_body: false
 fields:
-- name: post
-  type: include
-  config: {}
-  template: posts
-  label: Post
 - name: project_status
   type: select
   default: Completed
