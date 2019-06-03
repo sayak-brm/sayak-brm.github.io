@@ -13,10 +13,15 @@ name = "Music"
 url = "/music"
 weight = 2
 [[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 3
+[[menu.main]]
 identifier = "posts"
 name = "Posts"
 url = "/posts"
-weight = 3
+weight = 4
 [[menu.main]]
 identifier = "about"
 name = "About"
