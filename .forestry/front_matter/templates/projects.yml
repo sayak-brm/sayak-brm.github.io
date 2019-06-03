@@ -24,3 +24,22 @@ fields:
       path: ''
   label: Project Status
   description: Status of the project
+- name: started_on
+  type: datetime
+  label: Started On
+  description: Date of starting of project
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: ''
+- name: completed_on
+  type: datetime
+  label: Completed On
+  description: Date of completion of project
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
