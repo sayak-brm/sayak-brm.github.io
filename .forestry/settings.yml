@@ -12,6 +12,8 @@ sections:
   label: Projects
   create: all
   match: "**/*"
+  templates:
+  - projects
 - type: directory
   path: content/music
   label: Music
