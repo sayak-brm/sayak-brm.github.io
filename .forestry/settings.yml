@@ -17,7 +17,7 @@ sections:
   label: Music
   create: all
   match: "**/*"
-  new_doc_ext: '20190602103723'
+  new_doc_ext: ''
 - type: directory
   path: content/posts
   label: Posts
