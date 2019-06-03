@@ -2,11 +2,12 @@
 label: Posts
 hide_body: false
 fields:
-- name: page
-  type: include
-  config: {}
-  template: page
-  label: Page
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of post
 - name: summary
   type: textarea
   default: ''
@@ -22,3 +23,13 @@ fields:
   default: []
   label: Tags
   description: Post Tags
+- name: date
+  type: datetime
+  label: Date
+  description: Date of writing
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
