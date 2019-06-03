@@ -2,6 +2,22 @@
 label: Projects
 hide_body: false
 fields:
+- name: title
+  type: text
+  config:
+    required: true
+  label: Title
+  description: Title of project
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+  description: Description of project
 - name: project_status
   type: select
   default: Completed
