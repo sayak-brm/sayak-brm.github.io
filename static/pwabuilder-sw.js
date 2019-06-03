@@ -32,6 +32,7 @@ const networkFirstPaths = [
   "/\/404.html/",
   "/\/about\/.*/",
   "/\/music\/.*/",
+  "/\/projects\/.*/",
   "/\/posts\/.*/"
 ];
 
