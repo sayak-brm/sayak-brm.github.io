@@ -7,3 +7,20 @@ fields:
   config: {}
   template: posts
   label: Post
+- name: project_status
+  type: select
+  default: Completed
+  config:
+    required: true
+    options:
+    - Concept
+    - Ongoing
+    - Completed
+    - Discarded
+    source:
+      type: simple
+      section: ''
+      file: 
+      path: ''
+  label: Project Status
+  description: Status of the project
