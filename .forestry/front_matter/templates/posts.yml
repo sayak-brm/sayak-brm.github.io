@@ -12,3 +12,13 @@ fields:
   default: []
   label: Tags
   description: Post Tags
+- name: summary
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Summary
+  description: Description of content
