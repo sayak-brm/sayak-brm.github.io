@@ -28,4 +28,3 @@ Markdown is the preferred method for bloggers to write their web content. It rep
 HTML is the language of the web, and often the preferred language for developers. If you’re a developer and you want to have full control over the DOM and what the browser is seeing, you can build all of your pages with custom HTML. Hugo gives you control over EVERY line of code, so you know exactly what is going on under the hood of your site.
 
 Also, Hugo generates all the code necessary for a site to function and hands it over to you so that you can host it on a hosting provider of your choice, including Google Firebase and GitHub Pages.
-
