@@ -4,6 +4,11 @@ auto_deploy: true
 admin_path: static/admin
 webhook_url: 
 sections:
+- type: directory
+  path: content/projects
+  label: Projects
+  create: all
+  match: "**/*"
 - type: document
   path: content/about.md
   label: About
