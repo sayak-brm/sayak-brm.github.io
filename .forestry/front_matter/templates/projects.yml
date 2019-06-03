@@ -35,22 +35,31 @@ fields:
       path: ''
   label: Project Status
   description: Status of the project
-- name: started_on
-  type: datetime
-  label: Started On
-  description: Date of starting of project
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
-  default: ''
-- name: completed_on
-  type: datetime
-  label: Completed On
-  description: Date of completion of project
-  config:
-    required: false
-    date_format: 
-    time_format: 
-    display_utc: false
+- name: dates
+  type: field_group
+  config: {}
+  fields:
+  - name: started_on
+    type: datetime
+    label: Started On
+    description: Date of starting of project
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+  - name: completed_on
+    type: datetime
+    label: Completed On
+    config:
+      required: false
+      date_format: 
+      time_format: 
+      display_utc: false
+    description: Date of completion of project
+  label: Dates
+- name: gallery
+  type: image_gallery
+  config: {}
+  label: Gallery
+  description: Media related to project
