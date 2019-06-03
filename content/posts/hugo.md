@@ -1,7 +1,7 @@
 ---
 title: "Hugo"
 date: 2019-05-04T11:48:40+05:30
-summary: I needed a website that I could easily administer from anywhere and from any device, something that incorporated the latest and greatest web-developement technologies and would still give me absolute control over my site.
+summary: I needed a website that I could easily administer from anywhere and from any device, something that incorporated the latest and greatest web-developement technologies and would still give me absolute control over my site. So I chose Hugo.
 draft: false
 ---
 
@@ -11,13 +11,13 @@ I realized that traditional CMSs were not suitable for my requirements, and star
 
 Then I came across static site generators and [Hugo](https://gohugo.io/), which turned out to be a pretty good static flat-file CMS.  It has several enterprise grade features, works out of the box, and is quite easy to master. It is lighweight, super fast, and its themes are fully customizable and responsive. Imagine getting all the convenience of a platform like WordPress or SquareSpace, while still having full control over every line of code on your site.
 
-# Static vs Dynamic Sites
+## Static vs Dynamic Sites
 
 A dynamic website is the type of website that most people are used to. Take YouTube for example; it is a dynamic site, which means every time you visit it the webpages are custom built just for you. You can log on and browse the site, then refresh the page and everything will look different. In fact, every time you go to YouTube, their web servers pull information from a database, generate the HTML code, and they give each user a custom made page.
 
 Static sites are also quite common, and a lot more simpler than dynamic sites. With a static site, everything is pre-designed. When you access a static website the web server doesn’t generate any code or pull information from any database, it simply grabs the page you want and gives it to you. For static sites, all of the HTML, CSS and JavaScript is written before it’s uploaded to the web server.
 
-# Hugo
+## Hugo
 
 Static websites are often notoriously difficult to maintain and scale because all of the code needs to be written before it’s uploaded to the web server, and managing all of those pages and lines of code can be cumbersome. Hugo takes all the fuss out of building and managing a static website and gives you the flexiblity of dynamic websites while retaining the speed and convenience of a static website.
 
