@@ -2,7 +2,7 @@
 draft = true
 gallery = []
 project_status = "Ongoing"
-summary = "I built a BadUSB device with an ESP12 and an Arduino Pro Micro which can be accessed and controlled via WiFi."
+summary = "I built a BadUSB device with an ESP8266 and an Arduino Pro Micro which can be accessed and controlled via WiFi."
 title = "WiFiDucky"
 [dates]
 completed_on = ""
