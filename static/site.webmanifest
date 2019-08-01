@@ -2,6 +2,7 @@
     "name": "Sayak B",
     "lang": "en-IN",
     "short_name": "Sayak B",
+    "theme_color": "#252627",
     "background_color": "#292a2d",
     "display": "minimal-ui",
     "scope": "/",
