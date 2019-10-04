@@ -5,7 +5,7 @@ const precacheFiles = [
   /* Add an array of files to precache for your app */
   "https://sayakb.com/site.webmanifest",
   "https://sayakb.com/main.min.1643e5368278aad51dc36916f6fb8d7d959a771436f20f9ca9f8d100cddecbbc.css",
-  "https://sayakb.com/bundle.min.cf7871ed49474a80ed457154d24e61f7881adbe0f9384951a74ac46b688a39a4dbfa68bc6d37baeb058186de354ead3487d4ee7f083ea4cba860c48600b694f3.js",
+  "https://sayakb.com/bundle.min.c3134e4a0a3d5ff628f7e932e4d6846626cad5e9457046b58e07c6036133ea0d788e9d330d51e709b43a7a8a22e1a4cf28aff9dbf27756a6a12b9c135260726a.js",
   "https://sayakb.com/fonts/Inter-UI-Bold.woff2",
   "https://sayakb.com/fonts/Inter-UI-Regular.woff2",
   "https://sayakb.com/images/i512.png",
@@ -14,11 +14,9 @@ const precacheFiles = [
   "https://sayakb.com/images/i096.png",
   "https://sayakb.com/images/i072.png",
   "https://sayakb.com/images/i048.png",
-  "https://fonts.gstatic.com/s/worksans/v4/QGYsz_wNahGAdqQ43Rh_fKDp.woff2",
   "https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.woff2?v=4.4.0",
-  "https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh3o4T8mNhN.woff2",
-  "https://connect.facebook.net/en_US/sdk.js?hash=5b4562eb9a0cd9a25c859e736199890d&ua=modern_es6",
-  "https://sd.toneden.io/production/lasso.js"
+  "https://fonts.gstatic.com/s/worksans/v4/QGYsz_wNahGAdqQ43Rh_fKDp.woff2",
+  "https://fonts.gstatic.com/s/worksans/v4/QGYpz_wNahGAdqQ43Rh3o4T8mNhN.woff2"
 ];
 
 // TODO: replace the following with the correct offline fallback page i.e.: const offlineFallbackPage = "offline.html";
