@@ -5,7 +5,6 @@ const precacheFiles = [
   /* Add an array of files to precache for your app */
   "https://sayakb.com/site.webmanifest",
   "https://sayakb.com/main.min.1643e5368278aad51dc36916f6fb8d7d959a771436f20f9ca9f8d100cddecbbc.css",
-  "https://sayakb.com/bundle.min.c3134e4a0a3d5ff628f7e932e4d6846626cad5e9457046b58e07c6036133ea0d788e9d330d51e709b43a7a8a22e1a4cf28aff9dbf27756a6a12b9c135260726a.js",
   "https://sayakb.com/fonts/Inter-UI-Bold.woff2",
   "https://sayakb.com/fonts/Inter-UI-Regular.woff2",
   "https://sayakb.com/images/i512.png",
@@ -28,6 +27,7 @@ const networkFirstPaths = [
   "/\//",
   "/\/index.html/",
   "/\/404.html/",
+  "/\/bundle.min.*.js/",
   "/\/about\/.*/",
   "/\/music\/.*/",
   "/\/projects\/.*/",
