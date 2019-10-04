@@ -4,7 +4,7 @@
     "short_name": "Sayak B",
     "theme_color": "#252627",
     "background_color": "#292a2d",
-    "display": "minimal-ui",
+    "display": "fullscreen",
     "scope": "/",
     "start_url": "/",
     "icons": [
