@@ -81,4 +81,4 @@ WateryDroid is a minimalistic app that reminds you to drink water and stay hydra
 
 #### [**_Disclaimer_**](/disclaimer)
 
-##### I tried to give links only to [libre](https://en.wikipedia.org/wiki/Free_software) packages, but wasn't able to verify every link and don't vouch for the accuracy of either the provided information or the links.
+_I tried to give links only to [libre](https://en.wikipedia.org/wiki/Free_software) packages, but wasn't able to verify every link and don't vouch for the accuracy of either the provided information or the links._
