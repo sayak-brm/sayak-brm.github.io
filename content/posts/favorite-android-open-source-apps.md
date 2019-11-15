@@ -31,7 +31,7 @@ Telegram is a cloud-based IM & VoIP service and has an open-souce Android client
 
 ### **4. Termux - _Advanced Terminal Emulation on Android_**
 
-Termux is one of the most powerful terminal emulation programs available for Android, similar to the popular [Terminal Emulator](https://bit.ly/1fBM2yV) app, but it also includes an [extensive Linux Package Collection](https://github.com/termux/termux-packages/tree/master/packages) accessible with the `[apt](https://help.ubuntu.com/lts/serverguide/apt.html)` command. All available packages are compiled from the same source code as their desktop counterparts, giving users access to full fledged versions rather than half-baked ports of desktop Linux packages.
+Termux is one of the most powerful terminal emulation programs available for Android, similar to the popular [Terminal Emulator](https://bit.ly/1fBM2yV) app, but it also includes an [extensive Linux Package Collection](https://github.com/termux/termux-packages/tree/master/packages) accessible with the [`apt`](https://help.ubuntu.com/lts/serverguide/apt.html) command. All available packages are compiled from the same source code as their desktop counterparts, giving users access to full fledged versions rather than half-baked ports of desktop Linux packages.
 
 **Download:** [**F-Droid**](https://f-droid.org/en/packages/com.termux) **|** [**Play Store**](https://play.google.com/store/apps/details?id=com.termux)
 
@@ -81,4 +81,4 @@ WateryDroid is a minimalistic app that reminds you to drink water and stay hydra
 
 #### [**_Disclaimer_**](/disclaimer)
 
-##### **I tried to give links only to** [**libre**](https://en.wikipedia.org/wiki/Free_software) **packages, but wasn't able to verify every link and don't vouch for the accuracy of either the provided information or the links.**
+##### I tried to give links only to [libre](https://en.wikipedia.org/wiki/Free_software) packages, but wasn't able to verify every link and don't vouch for the accuracy of either the provided information or the links.
