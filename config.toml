@@ -27,32 +27,37 @@ identifier = "about"
 name = "About"
 url = "/about"
 weight = 1
+
 [params]
-contentTypeName = "posts"
-dateform = "Jan 2, 2006"
-dateformNum = "02-01-2006"
-dateformNumTime = "02-01-2006 15:04 -0700"
-dateformShort = "Jan 2"
-defaultTheme = "dark"
-description = "Sayak B | Jack of All Trades"
-homeSubtitle = "Jack of All Trades"
-images = [""]
-keywords = "homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer"
-themeColor = "#00ffa2"
-[params.logo]
-logoHomeLink = "/"
-logoText = "$ cd /home/sayak-b"
-[[params.social]]
-name = "google"
-url = "https://g.co/kgs/4S2KEV"
-[[params.social]]
-name = "github"
-url = "https://github.com/sayak-brm"
-[[params.social]]
-name = "instagram"
-url = "https://instagram.com/sayakbrm"
-[[params.social]]
-name = "email"
-url = "mailto:me@sayakb.com"
+    contentTypeName = "posts"
+    dateform = "Jan 2, 2006"
+    dateformNum = "02-01-2006"
+    dateformNumTime = "02-01-2006 15:04 -0700"
+    dateformShort = "Jan 2"
+    defaultTheme = "dark"
+    description = "Sayak B | Jack of All Trades"
+    homeSubtitle = "Jack of All Trades"
+    images = [""]
+    keywords = "homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer"
+    themeColor = "#00ffa2"
+
+    [params.logo]
+        logoHomeLink = "/"
+        logoText = "$ cd /home/sayak-b"
+        logoCursorColor    = "#00ffa2"
+
+    [[params.social]]
+        name = "google"
+        url = "https://g.co/kgs/4S2KEV"
+    [[params.social]]
+        name = "github"
+        url = "https://github.com/sayak-brm"
+    [[params.social]]
+        name = "instagram"
+        url = "https://instagram.com/sayakbrm"
+    [[params.social]]
+        name = "email"
+        url = "mailto:me@sayakb.com"
+
 [sitemap]
 priority = 0.9
