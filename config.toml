@@ -2,7 +2,6 @@ baseurl         = "/"
 title           = "Sayak B"
 subtitle        = ""
 copyright       = "Sayak B"
-keywords        = ""
 languageCode    = "en-us"
 readOtherPosts  = "Read other posts"
 rssLimit        = 10
