@@ -1,0 +1,81 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on Sayak B</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on Sayak B</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>en-us</language>
+        <copyright>Sayak B</copyright>
+        <lastBuildDate>Tue, 01 Oct 2019 04:10:19 +0000</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Top 10 Favorite Android Open Source Apps</title>
+            <link>/posts/favorite-android-open-source-apps/</link>
+            <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
+            
+            <guid>/posts/favorite-android-open-source-apps/</guid>
+            <description>1. FastHub - A poweful GitHub client for Android My favorite open-source app is a highly customizable, feature-packed GitHub client for Android that I&amp;rsquo;ve never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I&amp;rsquo;ve seen before.</description>
+            <content type="html"><![CDATA[<h3 id="1-fasthub---_a-poweful-github-client-for-android_"><strong>1. FastHub - <em>A poweful GitHub client for Android</em></strong></h3>
+<p>My favorite open-source app is a highly customizable, feature-packed <a href="https://github.com/">GitHub</a> client for Android that I&rsquo;ve never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I&rsquo;ve seen before.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/packages/com.fastaccess.github.libre"><strong>F-Droid</strong></a></p>
+<h3 id="2-materialistic---_a-well-designed-hacker-news-client-for-android_"><strong>2. Materialistic - <em>A well-designed Hacker News client for Android</em></strong></h3>
+<p>Materialistic is a material design <a href="https://news.ycombinator.com/">Hacker News</a> client for Android that offers a host of customizability options and uses the official <a href="https://github.com/HackerNews/API">HackerNews/API</a>, providing you with a plethora of content and a fresh supply of interesting articles focusing on computer science and entrepreneurship providing sufficient gratification of one&rsquo;s intellectial curiosity. The app supports a few hand-crafted themes and lots of customization on how the content is presented to you. You can also log in with your <a href="https://www.ycombinator.com">Y Combinator</a> credentials and post articles and other content to the Hacker News platform.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/io.github.hidroh.materialistic"><strong>F-Droid</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=io.github.hidroh.materialistic"><strong>Play Store</strong></a></p>
+<h3 id="3-telegram---_encrypted-cloud-based-messaging-for-everyone_"><strong>3. Telegram - <em>Encrypted cloud based messaging for everyone</em></strong></h3>
+<p>Telegram is a cloud-based IM &amp; VoIP service and has an open-souce Android client with support for end-to-end encrypted conversations and calls. Quotas are generous, enabling users to store and transfer files upto sizes of 1.5GB and groups can have upto 100,000 members, and also supports scripted bots providing utilities and services to the users of the app.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/org.telegram.messenger"><strong>F-Droid</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=org.telegram.messenger"><strong>Play Store</strong></a></p>
+<h3 id="4-termux---_advanced-terminal-emulation-on-android_"><strong>4. Termux - <em>Advanced Terminal Emulation on Android</em></strong></h3>
+<p>Termux is one of the most powerful terminal emulation programs available for Android, similar to the popular <a href="https://bit.ly/1fBM2yV">Terminal Emulator</a> app, but it also includes an <a href="https://github.com/termux/termux-packages/tree/master/packages">extensive Linux Package Collection</a> accessible with the <a href="https://help.ubuntu.com/lts/serverguide/apt.html"><code>apt</code></a> command. All available packages are compiled from the same source code as their desktop counterparts, giving users access to full fledged versions rather than half-baked ports of desktop Linux packages.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/com.termux"><strong>F-Droid</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=com.termux"><strong>Play Store</strong></a></p>
+<h3 id="5-anlinux---_run-linux-natively-on-android_"><strong>5. AnLinux - <em>Run Linux natively on Android</em></strong></h3>
+<p>AnLinux works in conjunction with <a href="#4-termux-advanced-terminal-emulation-on-android">Termux</a> using <a href="https://github.com/proot-me/PRoot">PRoot</a> (userland chroot) to set up a complete Linux environment. It works several distros such as <a href="https://www.ubuntu.com/">Ubuntu</a>, <a href="https://www.debian.org/">Debian</a> &amp; <a href="https://www.kali.org/">Kali Linux</a>, and even supports a handful of desktop entvironments such as <a href="https://xfce.org/">Xfce4</a>, <a href="https://lxde.org/">LXDE</a> &amp; <a href="https://mate-desktop.org/">Mate</a> via VNC, and requires a VNC client for Android like <a href="https://play.google.com/store/apps/details?id=com.realvnc.viewer.android">RealVNC</a> or <a href="https://play.google.com/store/apps/details?id=android.androidVNC">VNC Viewer</a>.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/exa.lnx.a"><strong>F-Droid</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=exa.lnx.a"><strong>Play Store</strong></a></p>
+<h3 id="6-pn---_pin-notes-to-the-notification-panel_"><strong>6. p!n - <em>Pin notes to the notification panel</em></strong></h3>
+<p>p!n is a super minimalistic note-taking app that resides in your phone&rsquo;s notification area, giving you easy access to all your notes. This app helps me remember important things which require attention in the short term and saves me from a lot of confusion. All notes are saved in the app&rsquo;s internal database and are persistent across restarts. Users have the ability to pin notes to the notification area, or snooze them for a specific period of time.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/de.nproth.pin"><strong>F-Droid</strong></a></p>
+<h3 id="7-keepass-dx---_manage-your-passwords-securely_"><strong>7. KeePass DX - <em>Manage your passwords securely</em></strong></h3>
+<p>KeePass DX is an open source password manager for Android which lets you save and use passwords, keys and digital identities in a secure way. It is based on material design and is plugs into Android&rsquo;s autofill service to securely log in to other apps in a secure manner. It also supports fingerprint unlocking, and also has an integrtated keyboard for filling more advanced fields not supported by Android&rsquo;s autofill service.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/com.kunzisoft.keepass.libre"><strong>F-Droid</strong></a></p>
+<h3 id="8-atomize---_compress-em-pictures_"><strong>8. Atomize - <em>Compress &lsquo;em pictures</em></strong></h3>
+<p>Atomize is a minimalistic PNG image compression app available for Android which can shrink the file size of an image significantly, often by as much as 70%, and maintains an image&rsquo;s transparency with little to no loss in quality. It utilizes the <a href="https://pngquant.org/">pngquant</a> lossy compression program to perform high-quality compressions using a combination of vector quantization algorithms.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/com.wrmndfzzy.atomize"><strong>F-Droid</strong></a></p>
+<h3 id="9-tor-browser---_protect-your-online-activities_"><strong>9. TOR Browser - <em>Protect your online activities</em></strong></h3>
+<p>TOR Browser for Android helps protect and secure your web browsing by blocking ads and prevents third-party trackers from snooping on your online activity. Cookies are removed automatically when you sign out of a site. Tor also prevents governments, ISPs, advertisers and other companies from monitoring and analyzing your web traffic to see what sites you visit.</p>
+<p><strong>Download:</strong> <a href="https://www.torproject.org/download/#android"><strong>TOR Project</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=org.torproject.torbrowser"><strong>Play Store</strong></a> <strong>|</strong> <a href="https://guardianproject.info/fdroid"><strong>F-Droid Repo</strong></a></p>
+<h3 id="10-haven---_turn-an-old-phone-into-a-security-alarm_"><strong>10. Haven - <em>Turn an old phone into a security alarm</em></strong></h3>
+<p>Haven is an Android application that leverages on-device sensors to provide monitoring and protection of physical areas by turning any Android phone into a motion, sound, vibration and light detector, watching for unexpected guests and unwanted intruders. If you have an extra Android device lying around, you can use Haven to watch out for inuders in your home or office.</p>
+<p><strong>Download:</strong> <a href="https://github.com/guardianproject/haven/releases"><strong>GitHub Releases</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=org.havenapp.main"><strong>Play Store</strong></a> <strong>|</strong> <a href="https://guardianproject.github.io/haven-nightly/fdroid/repo/"><strong>F-Droid Repo</strong></a></p>
+<h3 id="bonus-waterydroid"><strong>Bonus: WateryDroid</strong></h3>
+<p>WateryDroid is a minimalistic app that reminds you to drink water and stay hydrated throughout the day. It helps you develop a healthy habit, and is super small and has a background footprint negligible and almost unnoticable compared to almost every other app.</p>
+<p><strong>Download:</strong> <a href="https://f-droid.org/en/packages/tmendes.com.waterydroid"><strong>F-Droid</strong></a> <strong>|</strong> <a href="https://play.google.com/store/apps/details?id=tmendes.com.waterydroid"><strong>Play Store</strong></a></p>
+<hr>
+<h4 id="_disclaimer_disclaimer"><a href="/disclaimer"><strong><em>Disclaimer</em></strong></a></h4>
+<p><em>I tried to give links only to <a href="https://en.wikipedia.org/wiki/Free_software">libre</a> packages, but wasn&rsquo;t able to verify every link and don&rsquo;t vouch for the accuracy of either the provided information or the links.</em></p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hugo</title>
+            <link>/posts/hugo/</link>
+            <pubDate>Sat, 04 May 2019 11:48:40 +0530</pubDate>
+            
+            <guid>/posts/hugo/</guid>
+            <description>I needed a website that I could easily administer from anywhere and from any device, something that incorporated the latest and greatest web-developement technologies and would still give me absolute control over my site. So I chose Hugo.</description>
+            <content type="html"><![CDATA[<p>I needed a website that I could easily administer from anywhere and from any device, something that incorporated the latest and greatest web-developement technologies and would still give me absolute control over my site.</p>
+<p>I realized that traditional CMSs were not suitable for my requirements, and started working with open-source headless CMSs like Directus, even pushing a couple of commits to their repository, but soon realized that most of them were too complex and cumbersome, and had a lot of overhead from what I required at the moment.</p>
+<p>Then I came across static site generators and <a href="https://gohugo.io/">Hugo</a>, which turned out to be a pretty good static flat-file CMS.  It has several enterprise grade features, works out of the box, and is quite easy to master. It is lighweight, super fast, and its themes are fully customizable and responsive. Imagine getting all the convenience of a platform like WordPress or SquareSpace, while still having full control over every line of code on your site.</p>
+<h2 id="static-vs-dynamic-sites">Static vs Dynamic Sites</h2>
+<p>A dynamic website is the type of website that most people are used to. Take YouTube for example; it is a dynamic site, which means every time you visit it the webpages are custom built just for you. You can log on and browse the site, then refresh the page and everything will look different. In fact, every time you go to YouTube, their web servers pull information from a database, generate the HTML code, and they give each user a custom made page.</p>
+<p>Static sites are also quite common, and a lot more simpler than dynamic sites. With a static site, everything is pre-designed. When you access a static website the web server doesn’t generate any code or pull information from any database, it simply grabs the page you want and gives it to you. For static sites, all of the HTML, CSS and JavaScript is written before it’s uploaded to the web server.</p>
+<h2 id="hugo">Hugo</h2>
+<p>Static websites are often notoriously difficult to maintain and scale because all of the code needs to be written before it’s uploaded to the web server, and managing all of those pages and lines of code can be cumbersome. Hugo takes all the fuss out of building and managing a static website and gives you the flexiblity of dynamic websites while retaining the speed and convenience of a static website.</p>
+<p>Hugo lets developers abstract web components, define layouts and templates, and even use logic and conditions across their site. For non developers, Hugo provides a rich library of themes built by the community which take all the work out of building the the site. You could build a fast, scalable and beautiful Hugo website, without writing a single line of code.</p>
+<p>Markdown is the preferred method for bloggers to write their web content. It replaces ugly HTML and makes writing for the web extremely easy. Hugo is built with markdown and bloggers in mind, with the help of a theme someone with zero web development experience could build a hugo site.</p>
+<p>HTML is the language of the web, and often the preferred language for developers. If you’re a developer and you want to have full control over the DOM and what the browser is seeing, you can build all of your pages with custom HTML. Hugo gives you control over EVERY line of code, so you know exactly what is going on under the hood of your site.</p>
+<p>Also, Hugo generates all the code necessary for a site to function and hands it over to you so that you can host it on a hosting provider of your choice, including Google Firebase and GitHub Pages.</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>
