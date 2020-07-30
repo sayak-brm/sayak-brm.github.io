@@ -36,11 +36,8 @@ jobs:
     
     # Deploy to GitHub Pages
     - name: GitHub Branch Deploy
-      uses: zekth/gh-deploy-action@1.0.0
+      uses: JamesIves/github-pages-deploy-action@3.5.9
       with:
-        # Directory to deploy
-        build_dir: public
-        # Personnal access token
-        gh_token: ${{ secrets.GH_TOKEN }}
-        # Branch targeted for the deployment
-        target_branch: master
+        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        BRANCH: master
+        FOLDER: public
