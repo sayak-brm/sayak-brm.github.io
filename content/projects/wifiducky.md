@@ -1,14 +1,14 @@
-+++
-draft = true
-gallery = []
-project_status = "Ongoing"
-summary = "I built a BadUSB device with an ESP8266 and an Arduino Pro Micro which can be accessed and controlled via WiFi."
-title = "WiFiDucky"
+---
+draft: true
+gallery: []
+project_status: "Ongoing"
+summary: "I built a BadUSB device with an ESP8266 and an Arduino Pro Micro which can be accessed and controlled via WiFi."
+title: "WiFiDucky"
 [dates]
-completed_on = ""
-started_on = "2019-01-03T00:00:00+05:30"
+completed_on: ""
+started_on: "2019-01-03T00:00:00+05:30"
+---
 
-+++
 Around four months back I started reading about and experimenting with RubberDuckies and the BadUSB attack vector, which basically consisted of a microcontroller plugged into a computer emulating input devices like mice and keyboards. Such a device could essentially get full control of the host computer, essentially bypassing all software security measures like anti-viruses and firewalls.
 
 ## BadUSB
