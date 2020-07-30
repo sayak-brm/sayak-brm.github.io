@@ -1,0 +1,58 @@
+baseurl = "/"
+copyright = "Sayak B"
+keywords = ""
+languageCode = "en-us"
+readOtherPosts = "Read other posts"
+rssLimit = 10
+subtitle = ""
+theme = "hello-friend-ng"
+title = "Sayak B"
+[[menu.main]]
+identifier = "music"
+name = "Music"
+url = "/music"
+weight = 2
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects"
+weight = 3
+[[menu.main]]
+identifier = "posts"
+name = "Posts"
+url = "/posts"
+weight = 4
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about"
+weight = 1
+[params]
+contentTypeName = "posts"
+dateform = "Jan 2, 2006"
+dateformNum = "02-01-2006"
+dateformNumTime = "02-01-2006 15:04 -0700"
+dateformShort = "Jan 2"
+defaultTheme = "dark"
+description = "Sayak B | Jack of All Trades"
+homeSubtitle = "Jack of All Trades"
+images = [""]
+keywords = "homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer"
+themeColor = "#00ffa2"
+[params.logo]
+logoHomeLink = "/"
+logoText = "$ cd /home/sayak-b"
+[[params.social]]
+name = "google"
+url = "https://g.co/kgs/4S2KEV"
+[[params.social]]
+name = "github"
+url = "https://github.com/sayak-brm"
+[[params.social]]
+name = "instagram"
+url = "https://instagram.com/sayakbrm"
+[[params.social]]
+name = "email"
+url = "mailto:me@sayakb.com"
+[sitemap]
+priority = 0.9

@@ -1,0 +1,42 @@
+name: Build Hugo
+
+on:
+  push:
+    branches: [ hugo ]
+  pull_request:
+    branches: [ hugo ]
+  repository_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+    - uses: actions/checkout@v2
+      with:
+        ref: 'hugo'
+
+    # Runs a single command using the runners shell
+    - name: Build Hugo
+      uses: lowply/build-hugo@v0.74.1
+
+    # Deploy to Firebase
+    - name: Firebase CLI Deployment
+      uses: doonstore/firebase-deploy@v1
+      with:
+        params: --only hosting
+      env:
+        FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
+        FIREBASE_PROJECT: ${{ secrets.FIREBASE_PROJECT }}
+    
+    # Deploy to GitHub Pages
+    - name: GitHub Branch Deploy
+      uses: zekth/gh-deploy-action@1.0.0
+      with:
+        # Directory to deploy
+        build_dir: public
+        # Personnal access token
+        gh_token: ${{ secrets.GH_TOKEN }}
+        # Branch targeted for the deployment
+        target_branch: master
