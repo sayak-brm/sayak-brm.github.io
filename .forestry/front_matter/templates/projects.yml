@@ -63,5 +63,3 @@ fields:
   config: {}
   label: Gallery
   description: Media related to project
-pages:
-- content/projects/wifiducky.md
