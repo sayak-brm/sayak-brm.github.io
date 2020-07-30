@@ -37,6 +37,6 @@ jobs:
         # Directory to deploy
         build_dir: public
         # Personnal access token
-        gh_token: ${{ secrets.GITHUB_TOKEN }}
+        gh_token: ${{ secrets.GH_TOKEN }}
         # Branch targeted for the deployment
         target_branch: master
