@@ -36,8 +36,10 @@ jobs:
     
     # Deploy to GitHub Pages
     - name: GitHub Branch Deploy
-      uses: JamesIves/github-pages-deploy-action@3.5.9
+      uses: peaceiris/actions-gh-pages@v3
       with:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
-        BRANCH: master
-        FOLDER: public
+        personal_token: ${{ secrets.GH_TOKEN }}
+        publish_branch: master
+        publish_dir: public
+        user_name: 'github-actions[bot]'
+        user_email: 'github-actions[bot]@users.noreply.github.com'
