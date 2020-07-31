@@ -41,5 +41,3 @@ jobs:
         personal_token: ${{ secrets.GH_TOKEN }}
         publish_branch: master
         publish_dir: public
-        user_name: 'github-actions[bot]'
-        user_email: 'github-actions[bot]@users.noreply.github.com'
