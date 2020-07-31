@@ -3,6 +3,54 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/tags/espeak/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/espeakng/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/espeakng/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/tts/</loc>
+    <lastmod>2020-07-30T05:18:29+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
     <loc>/tags/android/</loc>
     <lastmod>2019-10-01T04:10:19+00:00</lastmod>
     <priority>0.9</priority>
@@ -39,18 +87,6 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2019-10-01T04:10:19+00:00</lastmod>
-    <priority>1</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-10-01T04:10:19+00:00</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
     <loc>/posts/favorite-android-open-source-apps/</loc>
     <lastmod>2019-10-01T04:10:19+00:00</lastmod>
     <priority>0.9</priority>
@@ -79,11 +115,6 @@
   
   <url>
     <loc>/music/</loc>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/</loc>
     <priority>0.5</priority>
   </url>
   

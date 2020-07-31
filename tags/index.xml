@@ -7,10 +7,46 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 01 Oct 2019 04:10:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 05:18:29 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>espeak</title>
+      <link>/tags/espeak/</link>
+      <pubDate>Thu, 30 Jul 2020 05:18:29 +0530</pubDate>
+      
+      <guid>/tags/espeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>espeakng</title>
+      <link>/tags/espeakng/</link>
+      <pubDate>Thu, 30 Jul 2020 05:18:29 +0530</pubDate>
+      
+      <guid>/tags/espeakng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Thu, 30 Jul 2020 05:18:29 +0530</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tts</title>
+      <link>/tags/tts/</link>
+      <pubDate>Thu, 30 Jul 2020 05:18:29 +0530</pubDate>
+      
+      <guid>/tags/tts/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>android</title>

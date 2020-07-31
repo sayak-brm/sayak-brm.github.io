@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 01 Oct 2019 04:10:19 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jul 2020 05:18:29 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>eSpeak NG Python Linrary</title>
+      <link>/projects/espeakng/</link>
+      <pubDate>Thu, 30 Jul 2020 05:18:29 +0530</pubDate>
+      
+      <guid>/projects/espeakng/</guid>
+      <description>{{ readFile &amp;ldquo;https://raw.githubusercontent.com/sayak-brm/espeakng-python/master/README.md&amp;quot; | $p.RenderString }}</description>
+    </item>
     
     <item>
       <title>Top 10 Favorite Android Open Source Apps</title>
