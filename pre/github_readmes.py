@@ -43,7 +43,7 @@ gh = github.Github(sys.argv[2])
 for repo in gh.get_user().get_repos():
     if not repo.private and not repo.fork:
         try:
-            print(f"Generating page for {gh.get_user().login}/{repo.name}")
             gen_readme(repo)
+            print(f"Generated page for {gh.get_user().login}/{repo.name}")
         except UnknownObjectException:
             pass
