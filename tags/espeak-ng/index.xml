@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Wed, 28 Sep 2016 10:45:11 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 31 Jul 2020 01:03:37 +0530</lastBuildDate>
     
 	<atom:link href="/tags/espeak-ng/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>eSpeak NG TTS Bindings for Python3</title>
       <link>/projects/espeakng-python/</link>
-      <pubDate>Wed, 28 Sep 2016 10:45:11 +0530</pubDate>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
       
       <guid>/projects/espeakng-python/</guid>
       <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.

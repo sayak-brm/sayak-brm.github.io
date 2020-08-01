@@ -7,60 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 01 Oct 2019 04:10:19 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 22:06:12 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>android</title>
-      <link>/tags/android/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/tags/android/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>apps</title>
-      <link>/tags/apps/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/tags/apps/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>favorites</title>
-      <link>/tags/favorites/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/tags/favorites/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>lists</title>
-      <link>/tags/lists/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/tags/lists/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>open-source</title>
-      <link>/tags/open-source/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/tags/open-source/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>backdoor</title>
       <link>/tags/backdoor/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/tags/backdoor/</guid>
       <description></description>
@@ -69,7 +24,7 @@
     <item>
       <title>brute-force-attacks</title>
       <link>/tags/brute-force-attacks/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/tags/brute-force-attacks/</guid>
       <description></description>
@@ -78,7 +33,7 @@
     <item>
       <title>python3</title>
       <link>/tags/python3/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/tags/python3/</guid>
       <description></description>
@@ -87,7 +42,7 @@
     <item>
       <title>remote-shell</title>
       <link>/tags/remote-shell/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/tags/remote-shell/</guid>
       <description></description>
@@ -96,9 +51,54 @@
     <item>
       <title>reverse-shell</title>
       <link>/tags/reverse-shell/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/tags/reverse-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>espeak</title>
+      <link>/tags/espeak/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/tags/espeak/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>espeak-ng</title>
+      <link>/tags/espeak-ng/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/tags/espeak-ng/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>espeak-tts-binding</title>
+      <link>/tags/espeak-tts-binding/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/tags/espeak-tts-binding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>/tags/python/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tts</title>
+      <link>/tags/tts/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/tags/tts/</guid>
       <description></description>
     </item>
     

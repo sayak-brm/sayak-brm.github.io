@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 04 Oct 2016 11:04:31 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 20 Mar 2018 08:35:55 +0530</lastBuildDate>
     
 	<atom:link href="/tags/language-design/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>struixLang</title>
       <link>/projects/struixlang/</link>
-      <pubDate>Tue, 04 Oct 2016 11:04:31 +0530</pubDate>
+      <pubDate>Tue, 20 Mar 2018 08:35:55 +0530</pubDate>
       
       <guid>/projects/struixlang/</guid>
       <description>A stack-based programming language implemented in Python3. Copyright 2016 Sayak Brahmachari. Licenced under Apache v2.0.  

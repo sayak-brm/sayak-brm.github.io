@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Fri, 06 Jan 2017 12:39:04 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 22:06:12 +0530</lastBuildDate>
     
 	<atom:link href="/tags/reverse-shell/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>ShellBot</title>
       <link>/projects/shellbot/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/projects/shellbot/</guid>
       <description>ShellBot 

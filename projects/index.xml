@@ -7,34 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Mon, 27 Jan 2020 20:31:24 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 22:06:12 +0530</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>wanderer-bot</title>
-      <link>/projects/wanderer-bot/</link>
-      <pubDate>Mon, 27 Jan 2020 20:31:24 +0530</pubDate>
-      
-      <guid>/projects/wanderer-bot/</guid>
-      <description>wanderer-bot  Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
-      <title>nacc</title>
-      <link>/projects/nacc/</link>
-      <pubDate>Sat, 03 Aug 2019 23:13:30 +0530</pubDate>
-      
-      <guid>/projects/nacc/</guid>
-      <description>nacc Not-A-C-Compiler
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
       <title>ShellBot</title>
       <link>/projects/shellbot/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
       <guid>/projects/shellbot/</guid>
       <description>ShellBot 
@@ -45,32 +26,9 @@ The ShellBot suite is designed in such a way that it will not stop till a connec
     </item>
     
     <item>
-      <title>struixLang</title>
-      <link>/projects/struixlang/</link>
-      <pubDate>Tue, 04 Oct 2016 11:04:31 +0530</pubDate>
-      
-      <guid>/projects/struixlang/</guid>
-      <description>A stack-based programming language implemented in Python3. Copyright 2016 Sayak Brahmachari. Licenced under Apache v2.0.  
- Intro: struixLang implements a stack, which is a list of objects which the program operates on.
-Also, a dictionary is present, containing words (functions/subroutines) which may be executed in a program.*
-Several primitive (read:built-in) words are pre-defined and mechanisms to define new user-defined words within struixLang itself are in place.
- For more information see here.</description>
-    </item>
-    
-    <item>
-      <title>My Website</title>
-      <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 29 Sep 2016 13:17:20 +0530</pubDate>
-      
-      <guid>/projects/sayak-brm.github.io/</guid>
-      <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status 
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
       <title>eSpeak NG TTS Bindings for Python3</title>
       <link>/projects/espeakng-python/</link>
-      <pubDate>Wed, 28 Sep 2016 10:45:11 +0530</pubDate>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
       
       <guid>/projects/espeakng-python/</guid>
       <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.
@@ -82,9 +40,22 @@ Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Other
     </item>
     
     <item>
+      <title>struixLang</title>
+      <link>/projects/struixlang/</link>
+      <pubDate>Tue, 20 Mar 2018 08:35:55 +0530</pubDate>
+      
+      <guid>/projects/struixlang/</guid>
+      <description>A stack-based programming language implemented in Python3. Copyright 2016 Sayak Brahmachari. Licenced under Apache v2.0.  
+ Intro: struixLang implements a stack, which is a list of objects which the program operates on.
+Also, a dictionary is present, containing words (functions/subroutines) which may be executed in a program.*
+Several primitive (read:built-in) words are pre-defined and mechanisms to define new user-defined words within struixLang itself are in place.
+ For more information see here.</description>
+    </item>
+    
+    <item>
       <title>HTML_IDE</title>
       <link>/projects/html_ide/</link>
-      <pubDate>Fri, 01 Apr 2016 05:30:07 +0530</pubDate>
+      <pubDate>Thu, 29 Sep 2016 12:16:29 +0530</pubDate>
       
       <guid>/projects/html_ide/</guid>
       <description>HTML_IDE HTML WYSIWYG IDE built HTML &amp;amp; JS

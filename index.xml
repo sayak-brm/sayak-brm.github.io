@@ -7,18 +7,36 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Mon, 27 Jan 2020 20:31:24 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 22:06:12 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>wanderer-bot</title>
-      <link>/projects/wanderer-bot/</link>
-      <pubDate>Mon, 27 Jan 2020 20:31:24 +0530</pubDate>
+      <title>ShellBot</title>
+      <link>/projects/shellbot/</link>
+      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
       
-      <guid>/projects/wanderer-bot/</guid>
-      <description>wanderer-bot  Contents automatically generated from GitHub.</description>
+      <guid>/projects/shellbot/</guid>
+      <description>ShellBot 
+An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
+A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
+This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
+The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
+    </item>
+    
+    <item>
+      <title>eSpeak NG TTS Bindings for Python3</title>
+      <link>/projects/espeakng-python/</link>
+      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
+      
+      <guid>/projects/espeakng-python/</guid>
+      <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.
+ 
+Requirements You need to have eSpeak NG installed in your system and added to the path.
+Windows The latest installers for eSpeak NG can be found here.
+The installed executable may need to be added to the system path. (See here)
+Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
     </item>
     
     <item>
@@ -31,16 +49,6 @@
     </item>
     
     <item>
-      <title>nacc</title>
-      <link>/projects/nacc/</link>
-      <pubDate>Sat, 03 Aug 2019 23:13:30 +0530</pubDate>
-      
-      <guid>/projects/nacc/</guid>
-      <description>nacc Not-A-C-Compiler
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
       <title>Hugo</title>
       <link>/posts/hugo/</link>
       <pubDate>Sat, 04 May 2019 11:48:40 +0530</pubDate>
@@ -50,22 +58,9 @@
     </item>
     
     <item>
-      <title>ShellBot</title>
-      <link>/projects/shellbot/</link>
-      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
-      
-      <guid>/projects/shellbot/</guid>
-      <description>ShellBot 
-An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
-A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
-This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
-The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
-    </item>
-    
-    <item>
       <title>struixLang</title>
       <link>/projects/struixlang/</link>
-      <pubDate>Tue, 04 Oct 2016 11:04:31 +0530</pubDate>
+      <pubDate>Tue, 20 Mar 2018 08:35:55 +0530</pubDate>
       
       <guid>/projects/struixlang/</guid>
       <description>A stack-based programming language implemented in Python3. Copyright 2016 Sayak Brahmachari. Licenced under Apache v2.0.  
@@ -76,33 +71,9 @@ Several primitive (read:built-in) words are pre-defined and mechanisms to define
     </item>
     
     <item>
-      <title>My Website</title>
-      <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 29 Sep 2016 13:17:20 +0530</pubDate>
-      
-      <guid>/projects/sayak-brm.github.io/</guid>
-      <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status 
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
-      <title>eSpeak NG TTS Bindings for Python3</title>
-      <link>/projects/espeakng-python/</link>
-      <pubDate>Wed, 28 Sep 2016 10:45:11 +0530</pubDate>
-      
-      <guid>/projects/espeakng-python/</guid>
-      <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.
- 
-Requirements You need to have eSpeak NG installed in your system and added to the path.
-Windows The latest installers for eSpeak NG can be found here.
-The installed executable may need to be added to the system path. (See here)
-Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
-    </item>
-    
-    <item>
       <title>HTML_IDE</title>
       <link>/projects/html_ide/</link>
-      <pubDate>Fri, 01 Apr 2016 05:30:07 +0530</pubDate>
+      <pubDate>Thu, 29 Sep 2016 12:16:29 +0530</pubDate>
       
       <guid>/projects/html_ide/</guid>
       <description>HTML_IDE HTML WYSIWYG IDE built HTML &amp;amp; JS
@@ -121,6 +92,18 @@ Access a demo here.
 The information contained on https://sayakb.com website (the &amp;ldquo;Service&amp;rdquo;) is for general information purposes only.
 Sayak B assumes no responsibility for errors or omissions in the contents on the Service.
 In no event shall Sayak B be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Hi, I&amp;rsquo;m Sayak B.
+I am studying Electronics &amp;amp; Instrumentation in KIIT University in Bhubaneswar, India.
+I have been dabbling in music production for the past couple of years and I love to code.
+I also am an electronics hobbyist and often combine my code with tangible hardware for fun projects.</description>
     </item>
     
   </channel>
