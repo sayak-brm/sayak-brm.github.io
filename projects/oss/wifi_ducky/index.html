@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="author" content="">
+<meta name="description" content="Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 &#43; ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&amp;rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts." />
+<meta name="keywords" content="homepage, blog, sayak, sayak b, hacking, programming, music, edm, dj, producer, rubber-ducky, esp8266, atmega32u4, badusb, arduino-pro-micro" />
+<meta name="robots" content="noodp" />
+<meta name="theme-color" content="#00ffa2" />
+<link rel="canonical" href="/projects/oss/wifi_ducky/" />
+
+
+    <title>
+        
+            Wi-Fi Ducky :: Sayak B 
+        
+    </title>
+
+
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/3.2.1/css/flag-icon.min.css" rel="stylesheet"
+    type="text/css">
+
+
+
+<link rel="stylesheet" href="/main.d1ea4af8fd04fb24a4f8b882ea54bd04eb245427ca4baf527c81a5dab071410b.css">
+
+
+
+
+
+
+<meta itemprop="name" content="Wi-Fi Ducky">
+<meta itemprop="description" content="Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 &#43; ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.">
+<meta itemprop="datePublished" content="2019-08-14T17:01:28&#43;05:30" />
+<meta itemprop="dateModified" content="2019-08-14T17:01:28&#43;05:30" />
+<meta itemprop="wordCount" content="1373">
+<meta itemprop="image" content="/"/>
+
+
+
+<meta itemprop="keywords" content="rubber-ducky,esp8266,atmega32u4,badusb,arduino-pro-micro," />
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="/"/>
+
+<meta name="twitter:title" content="Wi-Fi Ducky"/>
+<meta name="twitter:description" content="Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 &#43; ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts."/>
+
+
+
+    <meta property="og:title" content="Wi-Fi Ducky" />
+<meta property="og:description" content="Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 &#43; ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="/projects/oss/wifi_ducky/" />
+<meta property="og:image" content="/"/>
+<meta property="article:published_time" content="2019-08-14T17:01:28+05:30" />
+<meta property="article:modified_time" content="2019-08-14T17:01:28+05:30" />
+
+
+
+
+
+
+    <meta property="article:published_time" content="2019-08-14 17:01:28 &#43;0530 &#43;0530" />
+
+
+
+
+
+
+
+
+    </head>
+
+    <body class="dark-theme">
+        <div class="container">
+            <header class="header">
+    <span class="header__inner">
+        <a href="/" style="text-decoration: none;">
+    <div class="logo">
+        
+            <span class="logo__mark">></span>
+            <span class="logo__text">$ cd /home/sayak-b</span>
+            <span class="logo__cursor" style=
+                  "
+                   background-color:#00ffa2;
+                   ">
+            </span>
+        
+    </div>
+</a>
+
+
+        <span class="header__right">
+            
+                <nav class="menu">
+    <ul class="menu__inner"><li><a href="/about">About</a></li><li><a href="/music">Music</a></li><li><a href="/projects">Projects</a></li><li><a href="/posts">Posts</a></li>
+    </ul>
+</nav>
+
+                <span class="menu-trigger">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none"/>
+                        <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"/>
+                    </svg>
+                </span>
+            
+
+            <span class="theme-toggle unselectable"><svg class="theme-toggler" width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path d="M22 41C32.4934 41 41 32.4934 41 22C41 11.5066 32.4934 3 22
+  3C11.5066 3 3 11.5066 3 22C3 32.4934 11.5066 41 22 41ZM7 22C7
+  13.7157 13.7157 7 22 7V37C13.7157 37 7 30.2843 7 22Z"/>
+</svg>
+</span>
+        </span>
+    </span>
+</header>
+
+
+            <div class="content">
+                
+    <main class="post">
+
+        <div class="post-info">
+            
+            </p>
+        </div>
+
+        <article>
+            <h2 class="post-title"><a href="/projects/oss/wifi_ducky/">Wi-Fi Ducky</a></h2>
+                <hr />
+                <aside id="toc">
+                <div class="toc-title">Table of Contents</div>
+                    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#contents">Contents</a></li>
+    <li><a href="#introduction">Introduction</a>
+      <ul>
+        <li><a href="#what-it-is">What it is</a></li>
+        <li><a href="#how-it-works">How it works</a></li>
+        <li><a href="#the-benefits-of-adding-wi-fi">The benefits of adding Wi-Fi</a></li>
+      </ul>
+    </li>
+    <li><a href="#disclaimer">Disclaimer</a></li>
+    <li><a href="#installation">Installation</a>
+      <ul>
+        <li><a href="#short-version">Short version:</a></li>
+        <li><a href="#preparation">Preparation</a></li>
+        <li><a href="#esp8266">ESP8266</a></li>
+        <li><a href="#arduino-atmega32u4">Arduino ATmega32u4</a></li>
+        <li><a href="#wire-everything-up">Wire everything up</a></li>
+        <li><a href="#update-esp8266-over-the-web-interface">Update ESP8266 over the Web interface</a></li>
+      </ul>
+    </li>
+    <li><a href="#how-to-use-it">How to use it</a></li>
+    <li><a href="#improvements">Improvements</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#sources-and-additional-links">Sources and additional Links</a></li>
+    <li><a href="#additional-credit">Additional credit</a></li>
+  </ul>
+</nav>
+                </aside>
+                <hr />
+
+            
+
+            <div class="post-content">
+                <h1 id="wi-fi-ducky">Wi-Fi Ducky</h1>
+<p>Upload, save and run keystroke injections remotely with an ESP8266 + ATmega32u4</p>
+<p><img src="https://raw.githubusercontent.com/spacehuhn/wifi_ducky/master/images/my_wifi_duck.jpg" alt="image of my DIY Wi-Fi Duck"></p>
+<p><strong>Support me and my projects on <a href="https://www.patreon.com/spacehuhn">Patreon!</a></strong>
+<a href="https://www.patreon.com/spacehuhn"><!-- raw HTML omitted --></a></p>
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#introduction">Introduction</a>
+<ul>
+<li><a href="#what-it-is">What it is</a></li>
+<li><a href="#how-it-works">How it works</a></li>
+<li><a href="#the-benefits-of-adding-wi-fi">The benefits of adding Wi-Fi</a></li>
+</ul>
+</li>
+<li><a href="#disclaimer">Disclaimer</a></li>
+<li><a href="#installation">Installation</a>
+<ul>
+<li><a href="#preparation">Preparation</a></li>
+<li><a href="#esp8266">ESP8266</a></li>
+<li><a href="#arduino-atmega32u4">Arduino ATmega32u4</a></li>
+<li><a href="#wire-everything-up">Wire everything up</a></li>
+<li><a href="#update-esp8266-over-the-webinterface">Update ESP8266 over the Webinterface</a></li>
+</ul>
+</li>
+<li><a href="#how-to-use-it">How to use it</a></li>
+<li><a href="#improvements">Improvements</a></li>
+<li><a href="#license">License</a></li>
+<li><a href="#sources-and-additional-links">Sources and additional Links</a></li>
+</ul>
+<h2 id="introduction">Introduction</h2>
+<h3 id="what-it-is">What it is</h3>
+<p>It&rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.</p>
+<p>Using a USB device which act as a keyboard to inject keystrokes is well known these days.
+The <a href="https://hakshop.com/products/usb-rubber-ducky-deluxe">USB Rubber Ducky</a> by <a href="https://www.hak5.org/">Hak5</a> is THE hacker gadget for this kind of attack. It introduced a simple script language called <em>Ducky Script</em>, which this project uses too.</p>
+<h3 id="how-it-works">How it works</h3>
+<p>The ESP8266 is a popular Wi-Fi chip used in a lot of projects. Because it&rsquo;s cheap, small and has its own file system (<a href="http://esp8266.github.io/Arduino/versions/2.0.0/doc/filesystem.html">SPIFFS</a>), it&rsquo;s perfect for enabling an easy remote connection and holding Ducky Script payloads.</p>
+<p>Although the ESP8266 is awesome, it doesn&rsquo;t have native USB, which means it can&rsquo;t act as a keyboard :(
+(<a href="https://github.com/cnlohr">cnlohr</a> made a cool project on this and added a USB stack himself: <a href="https://github.com/cnlohr/espusb">https://github.com/cnlohr/espusb</a>. The problem with that is, that it isn&rsquo;t compatible with the current SDK version, also I wanted to use Arduino to make it more user friendly.)</p>
+<p>Here comes the ATmega32u4 into play!
+It can act as keyboard and thanks to <a href="http://youtube.com/seytonic">Seytonic</a> run Ducky Script (<a href="https://github.com/Seytonic/Duckduino-microSD">link</a>).
+So what I did is connecting the ATmega to the ESP8266 via serial.</p>
+<p>The ESP will open up a Wi-Fi access point and host a web interface from what you can upload and manage your scripts.
+When you hit run, it will send the script to the ATmega, which then will execute it on the target machine.</p>
+<h3 id="the-benefits-of-adding-wi-fi">The benefits of adding Wi-Fi</h3>
+<p><strong>But why add Wi-Fi</strong> &hellip;you might ask.
+With Wi-Fi you can upload and run your Ducky Script payloads remotely.
+You just need to plug the device in, connect to its Wi-Fi network and you have full control over the target machine.</p>
+<p>It also gives you one big advantage over other BadUSBs, you can test your scripts live! You don&rsquo;t need to copy them onto a micro-sd card or compile them. You can run them live over the web interface, which makes its super easy for testing and improving your scripts.</p>
+<p>It also adds a lot of possibilities for different attacks.
+You could make the target download executables from the Wi-Fi chip, instead of the internet.
+Or execute different attacks and send the results back to the Chip. Or open up a reverse shell on the ESP8266s Wi-Fi.
+And so on&hellip; there are so much possibilities!</p>
+<h2 id="disclaimer">Disclaimer</h2>
+<p>Use it only for testing purposes on your own devices!
+I don&rsquo;t take any responsibility for what you do with this project.</p>
+<h2 id="installation">Installation</h2>
+<h3 id="short-version">Short version:</h3>
+<p>Upload the <code>arduino_wifi_duck</code> sketch to your ATmega32u4 and upload the <code>esp8266_wifi_duck</code> sketch to your ESP8266.
+Then connect the serial pins (RX and TX (Arduino) to TX and RX (ESP8266)) and GND.</p>
+<hr>
+<h3 id="preparation">Preparation</h3>
+<p>What you will need:</p>
+<ul>
+<li><strong>ESP8266 Wi-Fi chip</strong>
+I recommend using an ESP-12. It&rsquo;s widely used, cheap, tiny and has 4MB of flash memory.
+However if you&rsquo;re a beginner you should probably start with a developer board like the NodeMCU or a Wemos d1 mini.</li>
+<li><strong>ATmega32u4</strong>
+The Arduino Micro and Arduino Leonardo use an ATmega32u4 for example. You could also get a Arduino Pro Micro or other cheap Arduino clones which use the ATmega32u4. I will use an <a href="https://www.google.de/search?q=Cjmcu-beetle&amp;tbm=isch">ATmega32u4 CJMCU Beetle</a>.</li>
+<li><strong>(a 3.3V regulator)</strong>
+I put that in brackets because you will only need this if your ATMega32u4 board doesn&rsquo;t provide 3.3V. The ESP8266 only works with 3.3V, so depending on your board you may need a regulator to get 3.3V out of the 5V.</li>
+<li><strong>Some skill, knowledge and common sense on this topic</strong>
+That&rsquo;s probably the most important part here. <strong>This project is not noob friendly!</strong> If you are a beginner, please start with other projects and get some knowledge about how Arduino and its code works, how to handle errors and how to work with the ESP8266. <strong>I can&rsquo;t cover every little detail here. Please respect that.</strong> Depending on your hardware choices you may need to add or change a bit of the Arduino code.</li>
+</ul>
+<p>So make your hardware choices!
+Also I wouldn&rsquo;t go straight forward and solder everything together. Test it beforehand, otherwise debugging can be hard!</p>
+<p><strong>For an easy start, better debugging, further development or if you just wanna test this project, I recommend using a Nodemcu + an Arduino Leonardo:</strong>
+<img src="https://raw.githubusercontent.com/spacehuhn/wifi_ducky/master/images/leonardo_duck_1.jpg" alt="nodemcu with a leonardo as wifi duck">
+This is easy to setup, you don&rsquo;t need any soldering skills and you can still use both the NodeMCU and the Arduino for other cool projects.</p>
+<p>But now let&rsquo;s get started!</p>
+<h3 id="esp8266">ESP8266</h3>
+<p>First you will need to flash your ESP8266.
+You can either flash the bin file directly or compile it yourself using Arduino.</p>
+<p><strong>Note:</strong> You will only need to flash it once, every new update can then be done over the possibilities.</p>
+<p>If don&rsquo;t use a USB dev board and don&rsquo;t know how to flash your plain ESP8266, I recommend you to have a look at this instructable: <a href="http://www.instructables.com/id/Getting-Started-with-the-ESP8266-ESP-12/?ALLSTEPS">http://www.instructables.com/id/Getting-Started-with-the-ESP8266-ESP-12/?ALLSTEPS</a></p>
+<p>You could also use your Arduino to flash it: <a href="https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36">https://gist.github.com/spacehuhn/b2b7d897550bc07b26da8464fa7f4b36</a>
+(The connections are the same for this project, the only difference is that you need to set GPIO-0 to LOW to enabling a firmware update).</p>
+<p><strong>Flash the .bin File</strong>
+Go to <a href="https://github.com/spacehuhn/wifi_ducky/releases">releases</a> and download the right bin file for your ESP8266.
+You can flash it with the <a href="https://github.com/espressif/esptool">esptool</a> or the <a href="https://github.com/nodemcu/nodemcu-flasher">nodemcu-flasher</a>.</p>
+<p><strong>Upload using Arduino</strong>
+Open the <code>esp8266_wifi_duck</code> sketch with <a href="https://www.arduino.cc/en/Main/Software">Arduino</a>.
+You need to install the following libraries:</p>
+<ul>
+<li><a href="https://github.com/esp8266/Arduino">the latest ESP8266 SDK</a></li>
+<li><a href="https://github.com/me-no-dev/ESPAsyncWebServer">ESPAsyncWebServer</a></li>
+<li><a href="https://github.com/me-no-dev/ESPAsyncTCP">ESPAsyncTCP</a></li>
+</ul>
+<p>Then compile and upload it to your ESP8266 (check if your settings are right).</p>
+<h3 id="arduino-atmega32u4">Arduino ATmega32u4</h3>
+<p>Open the <code>arduino_wifi_duck</code> sketch in Arduino and upload it to your Arduino.</p>
+<h3 id="wire-everything-up">Wire everything up</h3>
+<p>Ok so now you need to connect the ESP8266 with the Arduino.
+Connect these pins:</p>
+<table>
+<thead>
+<tr>
+<th>Arduino</th>
+<th align="center">ESP82666</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TX</td>
+<td align="center">RX</td>
+</tr>
+<tr>
+<td>RX</td>
+<td align="center">TX</td>
+</tr>
+<tr>
+<td>GND</td>
+<td align="center">GND</td>
+</tr>
+<tr>
+<td>VCC (3.3V)</td>
+<td align="center">VCC (3.3V)</td>
+</tr>
+</tbody>
+</table>
+<p>Like I mentioned before, you&rsquo;ll need a 3.3V regulator if your Arduino only provides 5V.
+<strong>Don&rsquo;t connect the ESP8266 to 5V!</strong></p>
+<p>If you use a plain ESP-12 like me, you also have to set the enable pin and to HIGH and GPIO15 to LOW:</p>
+<table>
+<thead>
+<tr>
+<th>PIN</th>
+<th align="center">Mode</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GPIO15</td>
+<td align="center">LOW (GND)</td>
+</tr>
+<tr>
+<td>CH_PD (EN)</td>
+<td align="center">HIGH (3.3V)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="update-esp8266-over-the-web-interface">Update ESP8266 over the Web interface</h3>
+<p>Once you flashed the software, you can update it over the web interface.
+Go to <code>192.168.4.1/update</code> and upload the new .bin file.
+(In Arduino go to <code>Sketch</code>-&gt;<code>Export compiled Binary</code> to compile your own .bin file)</p>
+<h2 id="how-to-use-it">How to use it</h2>
+<p>Plug your Wi-Fi Ducky in and connect to the new Wi-Fi network <code>WiFi Duck</code>. The password is <code>quackquack</code>.
+Open your browser and go to <code>192.168.4.1</code>.</p>
+<p><img src="https://raw.githubusercontent.com/spacehuhn/wifi_ducky/master/images/wifiduck_screenshot_1.jpg" alt="screenshot of the webinterface"></p>
+<p>There you can now upload, view, delete and run new Ducky Scripts.</p>
+<p><strong>PLEASE NOTE that the max length per row for a script is 600 chars.</strong></p>
+<p>How to write Ducky Scripts: <a href="https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript">https://github.com/hak5darren/USB-Rubber-Ducky/wiki/Duckyscript</a></p>
+<p>Happy hacking :)</p>
+<h2 id="improvements">Improvements</h2>
+<p>My wishlist:</p>
+<ul>
+<li>add support for Digispark (ATtiny85) as alternative for the ATmega32u4 Arduino</li>
+<li>change settings within the web interface (Wi-Fi SSID, password etc.)</li>
+<li><del>full support of all Ducky Script commands (DEFAULTDELAY is missing)</del></li>
+<li>auto execute scripts</li>
+<li><del>add mouse</del></li>
+<li>control over the internet</li>
+</ul>
+<h2 id="license">License</h2>
+<p>This project is licensed under the MIT License - see the <a href="LICENSE">license file</a> file for details</p>
+<h2 id="sources-and-additional-links">Sources and additional Links</h2>
+<p>The USB Rubber Ducky: <a href="https://hakshop.com/products/usb-rubber-ducky-deluxe">https://hakshop.com/products/usb-rubber-ducky-deluxe</a></p>
+<p>The Malduino (a BadUSB-Arduino/Rubber-Ducky-alternative by Seytonic): <a href="https://www.indiegogo.com/projects/malduino-badusb-arduino-usb#/">https://www.indiegogo.com/projects/malduino-badusb-arduino-usb#/</a></p>
+<p>Seytonic: <a href="http://youtube.com/seytonic">http://youtube.com/seytonic</a>
+<a href="https://github.com/seytonic">https://github.com/seytonic</a></p>
+<p>Arduino Ducky Script interpreter: <a href="https://github.com/Seytonic/Duckduino-microSD">https://github.com/Seytonic/Duckduino-microSD</a></p>
+<p>Cnlohrs ESP8266 USB Software Driver: <a href="https://github.com/cnlohr/espusb">https://github.com/cnlohr/espusb</a></p>
+<h2 id="additional-credit">Additional credit</h2>
+<p>Some of the features/changes applied were sourced from various other forks of the project. Cherry-picking proved complicated, so I am giving credit here.</p>
+<ul>
+<li>@gloglas - <a href="https://github.com/gloglas/WifiDuckV2">https://github.com/gloglas/WifiDuckV2</a>
+<ul>
+<li>Did a rewrite/hard fork of the spacehuhn/wifi_ducky project</li>
+<li>Added mouse control</li>
+<li>Added ASCII characters</li>
+<li>Added OS Detection (unused here)</li>
+<li>&hellip;and more.</li>
+</ul>
+</li>
+<li>@mvojacek - <a href="https://github.com/mvojacek/wifi_ducky">https://github.com/mvojacek/wifi_ducky</a>
+<ul>
+<li>Ported changes made by @gloglas back into a fork of the original project</li>
+</ul>
+</li>
+<li>@BlueArduino20 - <a href="https://github.com/BlueArduino20/super_wifi_ducky">https://github.com/BlueArduino20/super_wifi_ducky</a>
+<ul>
+<li>Partially fixed the payload corruption issue</li>
+<li>Added &ldquo;STRING.&rdquo; command (here, renamed to STRINGER)</li>
+<li>Added various missing key string/ids, new HID keys</li>
+</ul>
+</li>
+<li>@Brayyy - <a href="https://github.com/Brayyy/wifi_ducky">https://github.com/Brayyy/wifi_ducky</a>
+<ul>
+<li>Brought various forks together</li>
+<li>Fixed payload corruption issue, added payload verification bytes</li>
+<li>Fixed baud issues</li>
+<li>Improved payload speed</li>
+<li>Standardized project line-endings, indention, and formatting</li>
+<li>Fixed REPLAY command</li>
+<li>Other minor code refactoring</li>
+</ul>
+</li>
+</ul>
+<hr>
+<p><em>Contents automatically generated from <a href="https://github.com/sayak-brm/wifi_ducky">GitHub</a>.</em></p>
+
+            </div>
+        </article>
+
+        <hr />
+
+        <div class="post-info">
+  				<p>
+  					<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tag meta-icon"><path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7" y2="7"></line></svg><span class="tag"><a href="/tags/rubber-ducky">rubber-ducky</a></span><span class="tag"><a href="/tags/esp8266">esp8266</a></span><span class="tag"><a href="/tags/atmega32u4">atmega32u4</a></span><span class="tag"><a href="/tags/badusb">badusb</a></span><span class="tag"><a href="/tags/arduino-pro-micro">arduino-pro-micro</a></span>
+  				</p>
+  		</div>
+    </main>
+
+            </div>
+
+            
+                <footer class="footer">
+    <div class="footer__inner">
+        <div class="footer__content">
+            <span>&copy; 2020</span>
+            
+            
+                <span>Sayak B</span>
+            
+            <span> <a href="/posts/index.xml" target="_blank" title="rss"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-rss"><path d="M4 11a9 9 0 0 1 9 9"></path><path d="M4 4a16 16 0 0 1 16 16"></path><circle cx="5" cy="19" r="1"></circle></svg></a></span>
+        </div>
+    </div>
+    <div class="footer__inner">
+        <div class="footer__content">
+            Powered by&nbsp;
+            <span><a href="https://github.com/sayak-brm/sayak-brm.github.io/tree/hugo">GitHub</a></span>
+            <span><a href="https://gohugo.io/">Hugo</a></span>
+            <span><a href="https://firebase.google.com/">Firebase</a></span>
+        </div>
+    </div>
+</footer>
+
+            
+        </div>
+
+        
+
+
+
+
+<script type="text/javascript" src="/bundle.min.dc716e9092c9820b77f96da294d0120aeeb189b5bcea9752309ebea27fd53bbe6b13cffb2aca8ecf32525647ceb7001f76091de4199ac5a3caa432c070247f5b.js" integrity="sha512-3HFukJLJggt3&#43;W2ilNASCu6xibW86pdSMJ6&#43;on/VO75rE8/7KsqOzzJSVkfOtwAfdgkd5BmaxaPKpDLAcCR/Ww=="></script>
+
+
+
+    </body>
+</html>

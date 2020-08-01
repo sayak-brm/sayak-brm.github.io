@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>esp8266 on Sayak B</title>
+    <link>/tags/esp8266/</link>
+    <description>Recent content in esp8266 on Sayak B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sayak B</copyright>
+    <lastBuildDate>Wed, 14 Aug 2019 17:01:28 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/esp8266/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Wi-Fi Ducky</title>
+      <link>/projects/oss/wifi_ducky/</link>
+      <pubDate>Wed, 14 Aug 2019 17:01:28 +0530</pubDate>
+      
+      <guid>/projects/oss/wifi_ducky/</guid>
+      <description>Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 + ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&amp;rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.</description>
+    </item>
+    
+  </channel>
+</rss>

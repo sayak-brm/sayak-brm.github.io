@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 23:24:50 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 01 Aug 2020 23:47:32 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Sat, 01 Aug 2020 23:24:50 +0530</pubDate>
+      <pubDate>Sat, 01 Aug 2020 23:47:32 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status 
@@ -36,6 +36,16 @@ The ShellBot suite is designed in such a way that it will not stop till a connec
     </item>
     
     <item>
+      <title>Pwnagotchi</title>
+      <link>/projects/oss/pwnagotchi/</link>
+      <pubDate>Sat, 01 Aug 2020 20:39:50 +0530</pubDate>
+      
+      <guid>/projects/oss/pwnagotchi/</guid>
+      <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
+Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
+    </item>
+    
+    <item>
       <title>eSpeak NG TTS Bindings for Python3</title>
       <link>/projects/espeakng-python/</link>
       <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
@@ -50,12 +60,45 @@ Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Other
     </item>
     
     <item>
+      <title>Description</title>
+      <link>/projects/oss/api/</link>
+      <pubDate>Mon, 27 Jul 2020 18:15:21 +0530</pubDate>
+      
+      <guid>/projects/oss/api/</guid>
+      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
+ Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
+Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
+    </item>
+    
+    <item>
+      <title>every day</title>
+      <link>/projects/oss/pwnagotchi-plugins-contrib/</link>
+      <pubDate>Fri, 03 Jul 2020 15:43:56 +0530</pubDate>
+      
+      <guid>/projects/oss/pwnagotchi-plugins-contrib/</guid>
+      <description>These are user contributed plugins for pwnagotchi, some of them have not been completely tested by the dev team, use them at your own risk.
+In order to use these plugins, clone the repository anywhere on your unit and then add its path to /etc/pwnagotchi/config.yml as:
+main: custom_plugins: &amp;#34;/path/to/this/folder&amp;#34; Each plugin has its own configuration than must be part of the main.plugins section. If for instance you want to enable the auto_backup plugin, you need to edit your config.</description>
+    </item>
+    
+    <item>
       <title>Top 10 Favorite Android Open Source Apps</title>
       <link>/posts/favorite-android-open-source-apps/</link>
       <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
       
       <guid>/posts/favorite-android-open-source-apps/</guid>
       <description>1. FastHub - A poweful GitHub client for Android My favorite open-source app is a highly customizable, feature-packed GitHub client for Android that I&amp;rsquo;ve never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I&amp;rsquo;ve seen before.</description>
+    </item>
+    
+    <item>
+      <title>Wi-Fi Ducky</title>
+      <link>/projects/oss/wifi_ducky/</link>
+      <pubDate>Wed, 14 Aug 2019 17:01:28 +0530</pubDate>
+      
+      <guid>/projects/oss/wifi_ducky/</guid>
+      <description>Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 + ATmega32u4
+Support me and my projects on Patreon! 
+Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&amp;rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.</description>
     </item>
     
     <item>
@@ -78,42 +121,6 @@ Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Other
 Also, a dictionary is present, containing words (functions/subroutines) which may be executed in a program.*
 Several primitive (read:built-in) words are pre-defined and mechanisms to define new user-defined words within struixLang itself are in place.
  For more information see here.</description>
-    </item>
-    
-    <item>
-      <title>HTML_IDE</title>
-      <link>/projects/html_ide/</link>
-      <pubDate>Thu, 29 Sep 2016 12:16:29 +0530</pubDate>
-      
-      <guid>/projects/html_ide/</guid>
-      <description>HTML_IDE HTML WYSIWYG IDE built HTML &amp;amp; JS
-Warning: The Application works only when pages from the same domain are accessed. For more information see here.
-Access a demo here.
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>/disclaimer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/disclaimer/</guid>
-      <description>Disclaimer Last updated: October 04, 2019
-The information contained on https://sayakb.com website (the &amp;ldquo;Service&amp;rdquo;) is for general information purposes only.
-Sayak B assumes no responsibility for errors or omissions in the contents on the Service.
-In no event shall Sayak B be liable for any special, direct, indirect, consequential, or incidental damages or any damages whatsoever, whether in an action of contract, negligence or other tort, arising out of or in connection with the use of the Service or the contents of the Service.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Hi, I&amp;rsquo;m Sayak B.
-I am studying Electronics &amp;amp; Instrumentation in KIIT University in Bhubaneswar, India.
-I have been dabbling in music production for the past couple of years and I love to code.
-I also am an electronics hobbyist and often combine my code with tangible hardware for fun projects.</description>
     </item>
     
   </channel>
