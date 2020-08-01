@@ -15,7 +15,11 @@ def gen_readme(repo):
         if readme_title != '':
             title = readme_title
 
-    with open(f"content/projects/{repo.name}.md", 'wb') as readme:
+    path = f"content/projects/{repo.name}.md"
+    if repo.fork:
+        path = f"content/projects/oss/{repo.name}.md"
+
+    with open(path, 'wb') as readme:
         readme.write(b"---\ntitle: ")
         readme.write(title)
         if repo.description is not None:
@@ -43,7 +47,7 @@ gh = github.Github(sys.argv[2])
 exceptions = json.load(open("pre/github_readmes_exceptions.json"))
 
 for repo in gh.get_user().get_repos():
-    if not repo.private and not repo.fork and repo.name not in exceptions:
+    if not repo.private and repo.name not in exceptions:
         try:
             gen_readme(repo)
             print(f"Generated page for {gh.get_user().login}/{repo.name}")
