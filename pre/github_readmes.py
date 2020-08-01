@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-import sys, base64, datetime
+import sys, base64, datetime, json
 
 import github
 from github.GithubException import UnknownObjectException
@@ -40,8 +40,10 @@ if len(sys.argv)<3:
 username = sys.argv[1]
 gh = github.Github(sys.argv[2])
 
+exceptions = json.load(open("pre/github_readmes_exceptions.json"))
+
 for repo in gh.get_user().get_repos():
-    if not repo.private and not repo.fork:
+    if not repo.private and not repo.fork and repo.name not in exceptions:
         try:
             gen_readme(repo)
             print(f"Generated page for {gh.get_user().login}/{repo.name}")
