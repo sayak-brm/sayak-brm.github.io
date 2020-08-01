@@ -31,7 +31,7 @@ def gen_readme(repo):
         readme.write(readme_contents)
 
         readme.write(b"\n---\n\n")
-        readme.write(bytes(f"*Contents automatically generated from [GitHub]({repo.url}).*\n", "utf8"))
+        readme.write(bytes(f"*Contents automatically generated from [GitHub]({repo.html_url}).*\n", "utf8"))
 
 if len(sys.argv)<3:
     print("Invalid Arguments")
