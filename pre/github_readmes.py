@@ -33,18 +33,17 @@ def gen_readme(repo):
         readme.write(b"\n---\n\n")
         readme.write(bytes(f"*Contents automatically generated from [GitHub]({repo.url}).*\n", "utf8"))
 
-if __name__ == "__main__":
-    if len(sys.argv)<3:
-        print("Invalid Arguments")
-        exit(1)
+if len(sys.argv)<3:
+    print("Invalid Arguments")
+    exit(1)
 
-    username = sys.argv[1]
-    gh = github.Github(sys.argv[2])
+username = sys.argv[1]
+gh = github.Github(sys.argv[2])
 
-    for repo in gh.get_user().get_repos():
-        if not repo.private and not repo.fork:
-            try:
-                print(f"Generating page for {gh.get_user().login}/{repo.name}")
-                gen_readme(repo)
-            except UnknownObjectException:
-                pass
+for repo in gh.get_user().get_repos():
+    if not repo.private and not repo.fork:
+        try:
+            print(f"Generating page for {gh.get_user().login}/{repo.name}")
+            gen_readme(repo)
+        except UnknownObjectException:
+            pass
