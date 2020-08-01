@@ -57,5 +57,50 @@
       <description></description>
     </item>
     
+    <item>
+      <title>backdoor</title>
+      <link>/tags/backdoor/</link>
+      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      
+      <guid>/tags/backdoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brute-force-attacks</title>
+      <link>/tags/brute-force-attacks/</link>
+      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      
+      <guid>/tags/brute-force-attacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python3</title>
+      <link>/tags/python3/</link>
+      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      
+      <guid>/tags/python3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote-shell</title>
+      <link>/tags/remote-shell/</link>
+      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      
+      <guid>/tags/remote-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reverse-shell</title>
+      <link>/tags/reverse-shell/</link>
+      <pubDate>Fri, 06 Jan 2017 12:39:04 +0530</pubDate>
+      
+      <guid>/tags/reverse-shell/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

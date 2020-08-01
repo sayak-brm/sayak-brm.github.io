@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>stack on Sayak B</title>
+    <link>/tags/stack/</link>
+    <description>Recent content in stack on Sayak B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sayak B</copyright>
+    <lastBuildDate>Tue, 04 Oct 2016 11:04:31 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/stack/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>struixLang</title>
+      <link>/projects/struixlang/</link>
+      <pubDate>Tue, 04 Oct 2016 11:04:31 +0530</pubDate>
+      
+      <guid>/projects/struixlang/</guid>
+      <description>A stack-based programming language implemented in Python3. Copyright 2016 Sayak Brahmachari. Licenced under Apache v2.0.  
+ Intro: struixLang implements a stack, which is a list of objects which the program operates on.
+Also, a dictionary is present, containing words (functions/subroutines) which may be executed in a program.*
+Several primitive (read:built-in) words are pre-defined and mechanisms to define new user-defined words within struixLang itself are in place.
+ For more information see here.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,35 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Sayak B</title>
-    <link>/projects/</link>
-    <description>Recent content in Projects on Sayak B</description>
+    <title>python3 on Sayak B</title>
+    <link>/tags/python3/</link>
+    <description>Recent content in python3 on Sayak B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Mon, 27 Jan 2020 20:31:24 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 06 Jan 2017 12:39:04 +0530</lastBuildDate>
     
-	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/python3/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>wanderer-bot</title>
-      <link>/projects/wanderer-bot/</link>
-      <pubDate>Mon, 27 Jan 2020 20:31:24 +0530</pubDate>
-      
-      <guid>/projects/wanderer-bot/</guid>
-      <description>wanderer-bot  Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
-      <title>nacc</title>
-      <link>/projects/nacc/</link>
-      <pubDate>Sat, 03 Aug 2019 23:13:30 +0530</pubDate>
-      
-      <guid>/projects/nacc/</guid>
-      <description>nacc Not-A-C-Compiler
- Contents automatically generated from GitHub.</description>
-    </item>
     
     <item>
       <title>ShellBot</title>
@@ -58,16 +39,6 @@ Several primitive (read:built-in) words are pre-defined and mechanisms to define
     </item>
     
     <item>
-      <title>My Website</title>
-      <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 29 Sep 2016 13:17:20 +0530</pubDate>
-      
-      <guid>/projects/sayak-brm.github.io/</guid>
-      <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status 
- Contents automatically generated from GitHub.</description>
-    </item>
-    
-    <item>
       <title>eSpeak NG TTS Bindings for Python3</title>
       <link>/projects/espeakng-python/</link>
       <pubDate>Wed, 28 Sep 2016 10:45:11 +0530</pubDate>
@@ -79,18 +50,6 @@ Requirements You need to have eSpeak NG installed in your system and added to th
 Windows The latest installers for eSpeak NG can be found here.
 The installed executable may need to be added to the system path. (See here)
 Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
-    </item>
-    
-    <item>
-      <title>HTML_IDE</title>
-      <link>/projects/html_ide/</link>
-      <pubDate>Fri, 01 Apr 2016 05:30:07 +0530</pubDate>
-      
-      <guid>/projects/html_ide/</guid>
-      <description>HTML_IDE HTML WYSIWYG IDE built HTML &amp;amp; JS
-Warning: The Application works only when pages from the same domain are accessed. For more information see here.
-Access a demo here.
- Contents automatically generated from GitHub.</description>
     </item>
     
   </channel>
