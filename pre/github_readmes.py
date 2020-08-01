@@ -22,7 +22,7 @@ def gen_readme(repo):
             readme.write(b"\nsubtitle: ")
             readme.write(bytes(repo.description, "utf8"))
         readme.write(b"\ndate: ")
-        readme.write(bytes(repo.created_at.strftime("%Y-%m-%dT%H:%M:%S+05:30"), "utf8"))
+        readme.write(bytes(repo.pushed_at.strftime("%Y-%m-%dT%H:%M:%S+05:30"), "utf8"))
         readme.write(b"\ndraft: false\ntoc: true\ntags: \n")
         for topic in repo.get_topics():
             readme.write(bytes(f"  - {topic}\n", "utf8"))
