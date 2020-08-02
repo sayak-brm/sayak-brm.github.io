@@ -12,7 +12,7 @@ def gen_readme(repo):
 
     title = bytes(repo.name, "UTF-8")
     if repo.name in titles.keys():
-        title = titles[repo.name]
+        title = bytes(titles[repo.name], "UTF-8")
     else:
         title_loc = readme_contents.find(b"# ")
         if title_loc != -1:
@@ -59,7 +59,7 @@ def main():
         if not repo.private and repo.name not in exceptions:
             try:
                 gen_readme(repo)
-                print(f"Generated page for {gh.get_user().login}/{repo.name}")
+                print(f"Generated page for {username}/{repo.name}")
             except UnknownObjectException:
                 pass
 
