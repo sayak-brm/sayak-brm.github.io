@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 23:47:32 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 02 Aug 2020 00:20:22 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Sat, 01 Aug 2020 23:47:32 +0530</pubDate>
+      <pubDate>Sun, 02 Aug 2020 00:20:22 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status 
@@ -60,7 +60,7 @@ Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Other
     </item>
     
     <item>
-      <title>Description</title>
+      <title>Directus API</title>
       <link>/projects/oss/api/</link>
       <pubDate>Mon, 27 Jul 2020 18:15:21 +0530</pubDate>
       
@@ -71,7 +71,7 @@ Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&
     </item>
     
     <item>
-      <title>every day</title>
+      <title>Pwnagotchi contributed plugins</title>
       <link>/projects/oss/pwnagotchi-plugins-contrib/</link>
       <pubDate>Fri, 03 Jul 2020 15:43:56 +0530</pubDate>
       

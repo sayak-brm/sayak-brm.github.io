@@ -23,7 +23,7 @@ Instead of merely playing Super Mario or Atari games like most reinforcement lea
     </item>
     
     <item>
-      <title>Description</title>
+      <title>Directus API</title>
       <link>/projects/oss/api/</link>
       <pubDate>Mon, 27 Jul 2020 18:15:21 +0530</pubDate>
       
@@ -34,7 +34,7 @@ Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&
     </item>
     
     <item>
-      <title>every day</title>
+      <title>Pwnagotchi contributed plugins</title>
       <link>/projects/oss/pwnagotchi-plugins-contrib/</link>
       <pubDate>Fri, 03 Jul 2020 15:43:56 +0530</pubDate>
       
