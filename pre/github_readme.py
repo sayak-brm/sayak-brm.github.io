@@ -23,9 +23,9 @@ def gen_readme(repo):
     path = repo.name 
     if repo.name in paths.keys():
         path = paths[repo.name]
-    path = f"content/projects/{path}.md"
     if repo.fork:
-        path = f"content/projects/oss/{path}.md"
+        path = f"oss/{path}"
+    path = f"content/projects/{path}.md"
 
     with open(path, 'wb') as readme:
         readme.write(b"---\ntitle: ")
