@@ -4,19 +4,19 @@
   
   <url>
     <loc>/projects/sayak-brm.github.io/</loc>
-    <lastmod>2020-08-02T00:20:22+05:30</lastmod>
+    <lastmod>2020-08-02T00:29:24+05:30</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2020-08-02T00:20:22+05:30</lastmod>
+    <lastmod>2020-08-02T00:29:24+05:30</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-02T00:20:22+05:30</lastmod>
+    <lastmod>2020-08-02T00:29:24+05:30</lastmod>
     <priority>1</priority>
   </url>
   
@@ -111,7 +111,7 @@
   </url>
   
   <url>
-    <loc>/projects/oss/api/</loc>
+    <loc>/projects/oss/directus-api/</loc>
     <lastmod>2020-07-27T18:15:21+05:30</lastmod>
     <priority>0.9</priority>
   </url>
