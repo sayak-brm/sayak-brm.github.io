@@ -39,6 +39,10 @@ jobs:
     - name: Build Hugo
       uses: lowply/build-hugo@v0.74.1
 
+    # Include README.md
+    - name: Include README
+      run: cp README.md public/README.md
+
     # Deploy to Firebase
     - name: Firebase CLI Deployment
       uses: doonstore/firebase-deploy@v1
