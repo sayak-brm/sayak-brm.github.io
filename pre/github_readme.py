@@ -5,14 +5,14 @@ import sys, base64, datetime, json
 import github
 from github.GithubException import UnknownObjectException
 
-def gen_readme(repo):
+def gen_readme(user, repo):
     readme_contents = base64.b64decode(repo.get_readme().content)
-    titles = json.load(open("pre/github_readme_titles.json"))
-    paths = json.load(open("pre/github_readme_paths.json"))
+    titles = json.load(open("pre/github_readme/titles.json"))
+    paths = json.load(open("pre/github_readme/paths.json"))
 
     title = bytes(repo.name, "UTF-8")
-    if repo.name in titles.keys():
-        title = bytes(titles[repo.name], "UTF-8")
+    if repo.full_name in titles.keys():
+        title = bytes(titles[repo.full_name], "UTF-8")
     else:
         title_loc = readme_contents.find(b"# ")
         if title_loc != -1:
@@ -21,9 +21,9 @@ def gen_readme(repo):
                 title = readme_title
 
     path = repo.name 
-    if repo.name in paths.keys():
-        path = paths[repo.name]
-    if repo.fork:
+    if repo.full_name in paths.keys():
+        path = paths[repo.full_name]
+    if repo.fork or repo.owner.login != user.login:
         path = f"oss/{path}"
     path = f"content/projects/{path}.md"
 
@@ -50,16 +50,22 @@ def main():
         print("Invalid Arguments")
         exit(1)
 
-    username = sys.argv[1]
-    gh = github.Github(sys.argv[2])
+    gh = github.Github(sys.argv[1])
 
-    exceptions = json.load(open("pre/github_readme_exceptions.json"))
+    exceptions = json.load(open("pre/github_readme/exceptions.json"))
+    oss_repos = json.load(open("pre/github_readme/oss.json"))
+    repos = []
 
-    for repo in gh.get_user().get_repos():
-        if not repo.private and repo.name not in exceptions:
+    for repo in gh.get_user().get_repos(type="public"):
+        repos.append(repo)
+    for repo_name in oss_repos:
+        repos.append(gh.get_repo(repo_name))
+
+    for repo in repos:
+        if not repo.private and repo.full_name not in exceptions:
             try:
-                gen_readme(repo)
-                print(f"Generated page for {username}/{repo.name}")
+                gen_readme(gh.get_user(), repo)
+                print(f"Generated page for {gh.get_user().login}/{repo.name}")
             except UnknownObjectException:
                 pass
 
