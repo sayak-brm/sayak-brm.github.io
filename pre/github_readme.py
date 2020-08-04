@@ -65,7 +65,7 @@ def main():
         if not repo.private and repo.full_name not in exceptions:
             try:
                 gen_readme(gh.get_user(), repo)
-                print(f"Generated page for {gh.get_user().login}/{repo.name}")
+                print(f"Generated page for {repo.owner.login}/{repo.name}")
             except UnknownObjectException:
                 pass
 
