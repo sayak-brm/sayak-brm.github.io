@@ -67,38 +67,38 @@
     </item>
     
     <item>
-      <title>backdoor</title>
-      <link>/tags/backdoor/</link>
-      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
       
-      <guid>/tags/backdoor/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>brute-force-attacks</title>
-      <link>/tags/brute-force-attacks/</link>
-      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
+      <title>api-wrapper</title>
+      <link>/tags/api-wrapper/</link>
+      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
       
-      <guid>/tags/brute-force-attacks/</guid>
+      <guid>/tags/api-wrapper/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>remote-shell</title>
-      <link>/tags/remote-shell/</link>
-      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
+      <title>cms</title>
+      <link>/tags/cms/</link>
+      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
       
-      <guid>/tags/remote-shell/</guid>
+      <guid>/tags/cms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reverse-shell</title>
-      <link>/tags/reverse-shell/</link>
-      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
+      <title>cms-framework</title>
+      <link>/tags/cms-framework/</link>
+      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
       
-      <guid>/tags/reverse-shell/</guid>
+      <guid>/tags/cms-framework/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bettercap on Sayak B</title>
+    <link>/tags/bettercap/</link>
+    <description>Recent content in bettercap on Sayak B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sayak B</copyright>
+    <lastBuildDate>Sat, 01 Aug 2020 20:39:50 +0530</lastBuildDate>
+    
+	<atom:link href="/tags/bettercap/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pwnagotchi</title>
+      <link>/projects/oss/pwnagotchi/</link>
+      <pubDate>Sat, 01 Aug 2020 20:39:50 +0530</pubDate>
+      
+      <guid>/projects/oss/pwnagotchi/</guid>
+      <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
+Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
+    </item>
+    
+  </channel>
+</rss>

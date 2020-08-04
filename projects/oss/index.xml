@@ -7,10 +7,21 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 20:39:50 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 19:47:02 +0530</lastBuildDate>
     
 	<atom:link href="/projects/oss/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Directus API</title>
+      <link>/projects/oss/directus-api/</link>
+      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
+      
+      <guid>/projects/oss/directus-api/</guid>
+      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
+ Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
+Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
+    </item>
     
     <item>
       <title>Pwnagotchi</title>
@@ -20,17 +31,6 @@
       <guid>/projects/oss/pwnagotchi/</guid>
       <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
 Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
-    </item>
-    
-    <item>
-      <title>Directus API</title>
-      <link>/projects/oss/directus-api/</link>
-      <pubDate>Mon, 27 Jul 2020 18:15:21 +0530</pubDate>
-      
-      <guid>/projects/oss/directus-api/</guid>
-      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
- Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
-Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
     </item>
     
     <item>
