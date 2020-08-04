@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 22:06:12 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2020 12:24:57 +0530</lastBuildDate>
     
 	<atom:link href="/tags/python3/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>eSpeak NG TTS Bindings for Python3</title>
+      <link>/projects/espeakng-python/</link>
+      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
+      
+      <guid>/projects/espeakng-python/</guid>
+      <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.
+ 
+Requirements You need to have eSpeak NG installed in your system and added to the path.
+Windows The latest installers for eSpeak NG can be found here.
+The installed executable may need to be added to the system path. (See here)
+Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
+    </item>
     
     <item>
       <title>ShellBot</title>
@@ -23,20 +37,6 @@ An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remo
 A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
 This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
 The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
-    </item>
-    
-    <item>
-      <title>eSpeak NG TTS Bindings for Python3</title>
-      <link>/projects/espeakng-python/</link>
-      <pubDate>Fri, 31 Jul 2020 01:03:37 +0530</pubDate>
-      
-      <guid>/projects/espeakng-python/</guid>
-      <description>eSpeak NG TTS Bindings for Python3 Copyright 2016-2020 Sayak B. Licenced under GNU GPLv3.
- 
-Requirements You need to have eSpeak NG installed in your system and added to the path.
-Windows The latest installers for eSpeak NG can be found here.
-The installed executable may need to be added to the system path. (See here)
-Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
     </item>
     
     <item>
