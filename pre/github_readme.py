@@ -46,7 +46,7 @@ def gen_readme(user, repo):
         readme.write(bytes(f"*Contents automatically generated from [GitHub]({repo.html_url}).*\n", "utf8"))
 
 def main():
-    if len(sys.argv)<3:
+    if len(sys.argv)<2:
         print("Invalid Arguments")
         exit(1)
 
