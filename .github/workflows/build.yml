@@ -45,7 +45,6 @@ jobs:
       with:
         source: README.md
         target: public/README.md
-      run: cp README.md public/README.md
 
     # Deploy to Firebase
     - name: Firebase CLI Deployment
