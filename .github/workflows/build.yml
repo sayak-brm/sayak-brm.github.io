@@ -6,7 +6,7 @@ on:
   pull_request:
     branches: [ hugo ]
   repository_dispatch:
-    types: [update-event]
+    types: [ update-event ]
 
 jobs:
   build:

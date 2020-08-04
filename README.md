@@ -9,4 +9,4 @@
 
 ## Build Status
 
-[![Build Status](https://travis-ci.org/sayak-brm/sayak-brm.github.io.svg?branch=hugo)](https://travis-ci.org/sayak-brm/sayak-brm.github.io)
+![Build Hugo](https://github.com/sayak-brm/sayak-brm.github.io/workflows/Build%20Hugo/badge.svg?branch=hugo)
