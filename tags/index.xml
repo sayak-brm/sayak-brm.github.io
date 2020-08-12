@@ -7,69 +7,15 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 04 Aug 2020 12:24:57 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 22:48:16 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>espeak</title>
-      <link>/tags/espeak/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/espeak/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>espeak-ng</title>
-      <link>/tags/espeak-ng/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/espeak-ng/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>espeak-tts-binding</title>
-      <link>/tags/espeak-tts-binding/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/espeak-tts-binding/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>/tags/python/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python3</title>
-      <link>/tags/python3/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/python3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tts</title>
-      <link>/tags/tts/</link>
-      <pubDate>Tue, 04 Aug 2020 12:24:57 +0530</pubDate>
-      
-      <guid>/tags/tts/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>api</title>
       <link>/tags/api/</link>
-      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
       
       <guid>/tags/api/</guid>
       <description></description>
@@ -78,7 +24,7 @@
     <item>
       <title>api-wrapper</title>
       <link>/tags/api-wrapper/</link>
-      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
       
       <guid>/tags/api-wrapper/</guid>
       <description></description>
@@ -87,7 +33,7 @@
     <item>
       <title>cms</title>
       <link>/tags/cms/</link>
-      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
       
       <guid>/tags/cms/</guid>
       <description></description>
@@ -96,9 +42,63 @@
     <item>
       <title>cms-framework</title>
       <link>/tags/cms-framework/</link>
-      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
       
       <guid>/tags/cms-framework/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>content-management</title>
+      <link>/tags/content-management/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/content-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database</title>
+      <link>/tags/database/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/database/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>database-management</title>
+      <link>/tags/database-management/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/database-management/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>directus</title>
+      <link>/tags/directus/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/directus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>docs</title>
+      <link>/tags/docs/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/docs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>graphql</title>
+      <link>/tags/graphql/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/tags/graphql/</guid>
       <description></description>
     </item>
     

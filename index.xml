@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 04 Aug 2020 14:30:09 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2020 09:23:06 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,21 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Tue, 04 Aug 2020 14:30:09 +0530</pubDate>
+      <pubDate>Wed, 12 Aug 2020 09:23:06 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Directus API</title>
+      <link>/projects/oss/directus-api/</link>
+      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      
+      <guid>/projects/oss/directus-api/</guid>
+      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
+ Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
+Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
     </item>
     
     <item>
@@ -33,17 +44,6 @@ Requirements You need to have eSpeak NG installed in your system and added to th
 Windows The latest installers for eSpeak NG can be found here.
 The installed executable may need to be added to the system path. (See here)
 Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
-    </item>
-    
-    <item>
-      <title>Directus API</title>
-      <link>/projects/oss/directus-api/</link>
-      <pubDate>Mon, 03 Aug 2020 19:47:02 +0530</pubDate>
-      
-      <guid>/projects/oss/directus-api/</guid>
-      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
- Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
-Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
     </item>
     
     <item>
