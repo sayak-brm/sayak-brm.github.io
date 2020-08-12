@@ -54,8 +54,8 @@ theme           = "hello-friend-ng"
         logoCursorColor = "#00ffa2"
 
     [[params.social]]
-        name    = "google"
-        url     = "https://g.co/kgs/4S2KEV"
+        name    = "keybase"
+        url     = "https://keybase.io/sayakbrm"
     [[params.social]]
         name    = "github"
         url     = "https://github.com/sayak-brm"
