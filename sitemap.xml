@@ -4,20 +4,116 @@
   
   <url>
     <loc>/projects/sayak-brm.github.io/</loc>
-    <lastmod>2020-08-12T09:23:06+05:30</lastmod>
+    <lastmod>2020-08-31T16:00:43+05:30</lastmod>
     <priority>0.9</priority>
   </url>
   
   <url>
     <loc>/projects/</loc>
-    <lastmod>2020-08-12T09:23:06+05:30</lastmod>
+    <lastmod>2020-08-31T16:00:43+05:30</lastmod>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2020-08-12T09:23:06+05:30</lastmod>
+    <lastmod>2020-08-31T16:00:43+05:30</lastmod>
     <priority>1</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/ai/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/bettercap/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-learning/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-neural-network/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/deep-reinforcement-learning/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/handshakes/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/oss/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/oss/pwnagotchi/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/wpa-psk/</loc>
+    <lastmod>2020-08-29T13:42:02+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/backdoor/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/brute-force-attacks/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/python3/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/remote-shell/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/reverse-shell/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
+  </url>
+  
+  <url>
+    <loc>/projects/shellbot/</loc>
+    <lastmod>2020-08-21T22:31:49+05:30</lastmod>
+    <priority>0.9</priority>
   </url>
   
   <url>
@@ -105,12 +201,6 @@
   </url>
   
   <url>
-    <loc>/projects/oss/</loc>
-    <lastmod>2020-08-05T22:48:16+05:30</lastmod>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>/tags/php/</loc>
     <lastmod>2020-08-05T22:48:16+05:30</lastmod>
     <priority>0.9</priority>
@@ -130,12 +220,6 @@
   
   <url>
     <loc>/tags/sql/</loc>
-    <lastmod>2020-08-05T22:48:16+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
     <lastmod>2020-08-05T22:48:16+05:30</lastmod>
     <priority>0.9</priority>
   </url>
@@ -189,92 +273,8 @@
   </url>
   
   <url>
-    <loc>/tags/python3/</loc>
-    <lastmod>2020-08-04T12:24:57+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
     <loc>/tags/tts/</loc>
     <lastmod>2020-08-04T12:24:57+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/backdoor/</loc>
-    <lastmod>2020-08-01T22:06:12+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/brute-force-attacks/</loc>
-    <lastmod>2020-08-01T22:06:12+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/remote-shell/</loc>
-    <lastmod>2020-08-01T22:06:12+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/reverse-shell/</loc>
-    <lastmod>2020-08-01T22:06:12+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/shellbot/</loc>
-    <lastmod>2020-08-01T22:06:12+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ai/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/bettercap/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-learning/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-neural-network/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/deep-reinforcement-learning/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/handshakes/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/projects/oss/pwnagotchi/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
-    <priority>0.9</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/wpa-psk/</loc>
-    <lastmod>2020-08-01T20:39:50+05:30</lastmod>
     <priority>0.9</priority>
   </url>
   

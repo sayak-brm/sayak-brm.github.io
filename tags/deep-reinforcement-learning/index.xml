@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 01 Aug 2020 20:39:50 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 13:42:02 +0530</lastBuildDate>
     
 	<atom:link href="/tags/deep-reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Pwnagotchi</title>
       <link>/projects/oss/pwnagotchi/</link>
-      <pubDate>Sat, 01 Aug 2020 20:39:50 +0530</pubDate>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
       <guid>/projects/oss/pwnagotchi/</guid>
       <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.

@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Wed, 12 Aug 2020 09:23:06 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2020 16:00:43 +0530</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,23 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Wed, 12 Aug 2020 09:23:06 +0530</pubDate>
+      <pubDate>Mon, 31 Aug 2020 16:00:43 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>ShellBot</title>
+      <link>/projects/shellbot/</link>
+      <pubDate>Fri, 21 Aug 2020 22:31:49 +0530</pubDate>
+      
+      <guid>/projects/shellbot/</guid>
+      <description>ShellBot 
+An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
+A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
+This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
+The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
     </item>
     
     <item>
@@ -33,19 +46,6 @@ Requirements You need to have eSpeak NG installed in your system and added to th
 Windows The latest installers for eSpeak NG can be found here.
 The installed executable may need to be added to the system path. (See here)
 Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Others If eSpeak NG is not available in your package manager, you may need to compile the binaries for your system.</description>
-    </item>
-    
-    <item>
-      <title>ShellBot</title>
-      <link>/projects/shellbot/</link>
-      <pubDate>Sat, 01 Aug 2020 22:06:12 +0530</pubDate>
-      
-      <guid>/projects/shellbot/</guid>
-      <description>ShellBot 
-An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
-A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
-This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
-The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
     </item>
     
     <item>

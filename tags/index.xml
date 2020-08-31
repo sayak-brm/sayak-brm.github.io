@@ -7,98 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 22:48:16 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 13:42:02 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>api</title>
-      <link>/tags/api/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>ai</title>
+      <link>/tags/ai/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/api/</guid>
+      <guid>/tags/ai/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>api-wrapper</title>
-      <link>/tags/api-wrapper/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>bettercap</title>
+      <link>/tags/bettercap/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/api-wrapper/</guid>
+      <guid>/tags/bettercap/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cms</title>
-      <link>/tags/cms/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>deep-learning</title>
+      <link>/tags/deep-learning/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/cms/</guid>
+      <guid>/tags/deep-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>cms-framework</title>
-      <link>/tags/cms-framework/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>deep-neural-network</title>
+      <link>/tags/deep-neural-network/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/cms-framework/</guid>
+      <guid>/tags/deep-neural-network/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>content-management</title>
-      <link>/tags/content-management/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>deep-reinforcement-learning</title>
+      <link>/tags/deep-reinforcement-learning/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/content-management/</guid>
+      <guid>/tags/deep-reinforcement-learning/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>database</title>
-      <link>/tags/database/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>handshakes</title>
+      <link>/tags/handshakes/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/database/</guid>
+      <guid>/tags/handshakes/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>database-management</title>
-      <link>/tags/database-management/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>wpa-psk</title>
+      <link>/tags/wpa-psk/</link>
+      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
       
-      <guid>/tags/database-management/</guid>
+      <guid>/tags/wpa-psk/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>directus</title>
-      <link>/tags/directus/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>backdoor</title>
+      <link>/tags/backdoor/</link>
+      <pubDate>Fri, 21 Aug 2020 22:31:49 +0530</pubDate>
       
-      <guid>/tags/directus/</guid>
+      <guid>/tags/backdoor/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>docs</title>
-      <link>/tags/docs/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>brute-force-attacks</title>
+      <link>/tags/brute-force-attacks/</link>
+      <pubDate>Fri, 21 Aug 2020 22:31:49 +0530</pubDate>
       
-      <guid>/tags/docs/</guid>
+      <guid>/tags/brute-force-attacks/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>graphql</title>
-      <link>/tags/graphql/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <title>python3</title>
+      <link>/tags/python3/</link>
+      <pubDate>Fri, 21 Aug 2020 22:31:49 +0530</pubDate>
       
-      <guid>/tags/graphql/</guid>
+      <guid>/tags/python3/</guid>
       <description></description>
     </item>
     
