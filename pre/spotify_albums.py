@@ -19,6 +19,7 @@ def get_albums(artist_uri):
 def gen_album(album):
     date = datetime.strptime(album["release_date"], "%Y-%m-%d")
     spotify_uri = "spotify:album:" + album["id"]
+    shortcode = '{{< spotify "' + spotify_uri + '" >}}\n{{< songwhip "' + spotify_uri + '" >}}\n'
     with open(f"content/music/{album['name']}.md", "w") as page:
         page.write("---\ntitle: ")
         page.write(album["name"])
@@ -27,6 +28,8 @@ def gen_album(album):
         page.write("\ndraft: false\ntoc: false\ntags: \n")
         page.write("  - music\n  - sayak b\n  - edm\n")
         page.write("---\n\n")
+        page.write(shortcode)
+    print("Generated music page for:", album["name"])
 
 
 def main():
