@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Music on Sayak B</title>
-    <link>/music/</link>
-    <description>Recent content in Music on Sayak B</description>
+    <title>edm on Sayak B</title>
+    <link>/tags/edm/</link>
+    <description>Recent content in edm on Sayak B</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
     <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0530</lastBuildDate>
     
-	<atom:link href="/music/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/edm/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
