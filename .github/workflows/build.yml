@@ -34,6 +34,9 @@ jobs:
       run: patch themes/hello-friend-ng/layouts/partials/footer.html -i footer.diff
 
     - name: Python Preprocessing
+      env:
+        SPOTIPY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+        SPOTIPY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
       run: python3 pre/main.py ${{ secrets.GH_TOKEN }}
 
     # Runs a single command using the runners shell
