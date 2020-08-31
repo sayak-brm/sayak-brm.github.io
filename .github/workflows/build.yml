@@ -7,6 +7,7 @@ on:
     branches: [ hugo ]
   repository_dispatch:
     types: [ update-event ]
+  workflow_dispatch:
 
 jobs:
   build:
