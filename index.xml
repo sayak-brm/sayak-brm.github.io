@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Mon, 31 Aug 2020 21:16:11 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2020 07:00:36 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Mon, 31 Aug 2020 21:16:11 +0530</pubDate>
+      <pubDate>Sun, 11 Oct 2020 07:00:36 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
@@ -24,11 +24,31 @@
     <item>
       <title>Pwnagotchi</title>
       <link>/projects/oss/pwnagotchi/</link>
-      <pubDate>Sat, 29 Aug 2020 13:42:02 +0530</pubDate>
+      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
       
       <guid>/projects/oss/pwnagotchi/</guid>
       <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
 Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
+    </item>
+    
+    <item>
+      <title>Directus API</title>
+      <link>/projects/oss/directus-api/</link>
+      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
+      
+      <guid>/projects/oss/directus-api/</guid>
+      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
+ Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
+Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
+    </item>
+    
+    <item>
+      <title>Preset Junkie</title>
+      <link>/music/preset-junkie/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/music/preset-junkie/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -42,17 +62,6 @@ An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remo
 A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
 This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
 The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
-    </item>
-    
-    <item>
-      <title>Directus API</title>
-      <link>/projects/oss/directus-api/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
-      
-      <guid>/projects/oss/directus-api/</guid>
-      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
- Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
-Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
     </item>
     
     <item>
@@ -106,15 +115,6 @@ Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   D
       <pubDate>Tue, 30 Jul 2019 00:00:00 +0530</pubDate>
       
       <guid>/music/believe/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Waiting for Dawn</title>
-      <link>/music/waiting-for-dawn/</link>
-      <pubDate>Fri, 10 May 2019 00:00:00 +0530</pubDate>
-      
-      <guid>/music/waiting-for-dawn/</guid>
       <description></description>
     </item>
     

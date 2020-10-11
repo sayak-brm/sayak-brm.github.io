@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 22:48:16 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2020 00:39:15 +0530</lastBuildDate>
     
 	<atom:link href="/tags/api-wrapper/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>Directus API</title>
       <link>/projects/oss/directus-api/</link>
-      <pubDate>Wed, 05 Aug 2020 22:48:16 +0530</pubDate>
+      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
       
       <guid>/projects/oss/directus-api/</guid>
       <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.

@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Tue, 30 Jul 2019 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/edm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Preset Junkie</title>
+      <link>/music/preset-junkie/</link>
+      <pubDate>Fri, 18 Sep 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/music/preset-junkie/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Believe</title>
