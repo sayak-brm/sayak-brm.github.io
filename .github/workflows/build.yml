@@ -3,8 +3,6 @@ name: Build Hugo
 on:
   push:
     branches: [ hugo ]
-  pull_request:
-    branches: [ hugo ]
   repository_dispatch:
     types: [ update-event ]
   workflow_dispatch:
