@@ -24,10 +24,12 @@ def get_yt(album_id):
 def gen_album(album):
     date = datetime.strptime(album["release_date"], "%Y-%m-%d")
     spotify_uri = "spotify:album:" + album["id"]
-    shortcode = '{{< spotify "' + spotify_uri + '" >}}\n{{< songwhip "' + spotify_uri + '" >}}\n'
+    shortcode = '{{< songwhip "' + spotify_uri + '" >}}\n'
     yt = get_yt(album["id"])
     if yt:
         shortcode = '{{< youtube ' + yt + ' >}}\n' + shortcode
+    else:
+        shortcode = '{{< spotify "' + spotify_uri + '" >}}\n' + shortcode
     with open(f"content/music/{album['name']}.md", "w") as page:
         page.write("---\ntitle: ")
         page.write(album["name"])
