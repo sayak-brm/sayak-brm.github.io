@@ -25,7 +25,7 @@ def gen_album(album):
     date = datetime.strptime(album["release_date"], "%Y-%m-%d")
     spotify_uri = "spotify:album:" + album["id"]
     shortcode = '{{< songwhip "' + spotify_uri + '" >}}\n'
-    yt = get_yt(album["id"])
+    yt = get_yt(spotify_uri)
     if yt:
         shortcode = '{{< youtube ' + yt + ' >}}\n' + shortcode
     else:
