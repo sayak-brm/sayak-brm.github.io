@@ -39,7 +39,7 @@ def gen_album(album):
         page.write("  - music\n  - sayak b\n  - edm\n")
         page.write("---\n\n")
         page.write(shortcode)
-    print("Generated music page for:", album["name"])
+    print("Generated Album page for:", album["name"])
 
 
 def main():

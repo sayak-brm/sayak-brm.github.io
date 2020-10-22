@@ -10,3 +10,4 @@ for mod_fn in mods.keys():
     con = con[:loc+mods[mod_fn][2]] + mods[mod_fn][1] + con[loc+len(mods[mod_fn][1]):]
     with open(mod_fn, 'w') as mod_file:
         con = mod_file.write(con)
+    print("Modded file:", mod_fn)
