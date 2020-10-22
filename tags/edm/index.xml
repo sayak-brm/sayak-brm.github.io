@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Fri, 18 Sep 2020 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/edm/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Emergence</title>
+      <link>/music/emergence/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/music/emergence/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Preset Junkie</title>
@@ -90,15 +99,6 @@
       <pubDate>Fri, 10 Nov 2017 00:00:00 +0530</pubDate>
       
       <guid>/music/home/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Velocity</title>
-      <link>/music/velocity/</link>
-      <pubDate>Sat, 05 Aug 2017 00:00:00 +0530</pubDate>
-      
-      <guid>/music/velocity/</guid>
       <description></description>
     </item>
     

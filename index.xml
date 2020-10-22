@@ -7,15 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sun, 11 Oct 2020 07:47:55 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Emergence</title>
+      <link>/music/emergence/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/music/emergence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Sun, 11 Oct 2020 07:47:55 +0530</pubDate>
+      <pubDate>Sun, 11 Oct 2020 07:49:47 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
@@ -107,15 +116,6 @@ main: custom_plugins: &amp;#34;/path/to/this/folder&amp;#34; Each plugin has its
       <description>Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 + ATmega32u4
 Support me and my projects on Patreon! 
 Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&amp;rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.</description>
-    </item>
-    
-    <item>
-      <title>Believe</title>
-      <link>/music/believe/</link>
-      <pubDate>Tue, 30 Jul 2019 00:00:00 +0530</pubDate>
-      
-      <guid>/music/believe/</guid>
-      <description></description>
     </item>
     
   </channel>

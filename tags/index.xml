@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 03:28:28 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>edm</title>
+      <link>/tags/edm/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/tags/edm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>music</title>
+      <link>/tags/music/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/tags/music/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sayak b</title>
+      <link>/tags/sayak-b/</link>
+      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      
+      <guid>/tags/sayak-b/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>ai</title>
@@ -72,33 +99,6 @@
       <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
       
       <guid>/tags/wpa-psk/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>api</title>
-      <link>/tags/api/</link>
-      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
-      
-      <guid>/tags/api/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>api-wrapper</title>
-      <link>/tags/api-wrapper/</link>
-      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
-      
-      <guid>/tags/api-wrapper/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>cms</title>
-      <link>/tags/cms/</link>
-      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
-      
-      <guid>/tags/cms/</guid>
       <description></description>
     </item>
     
