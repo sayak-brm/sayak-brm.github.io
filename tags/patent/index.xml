@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>patent on Sayak B</title>
+    <link>/tags/patent/</link>
+    <description>Recent content in patent on Sayak B</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Sayak B</copyright>
+    <lastBuildDate>Fri, 16 Oct 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/patent/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Patent - An unmanned aerial vehicle based method and system for patrolling over search and rescue area</title>
+      <link>/projects/in202031041280a/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/in202031041280a/</guid>
+      <description>Application Number: IN 202031041280 A Status: Published Date of Filing: 23/09/2020 Date of Publication: 16/10/2020 Applicants:  Prof. (Dr.) Prasant Kumar Pattnaik Dr. Suneeta Mohanty Dr. Sharmistha Roy Rupesh Pal Sayak Brahmachari Rupam Ganguli Sourendu Das    Abstract The system discloses an Unmanned Aerial Vehicles (UAVs) equipped with a radio communication module (SDR) to emulate a cellular base station and has a persistent connection to a ground control unit which directs and navigates said UAVs.</description>
+    </item>
+    
+  </channel>
+</rss>

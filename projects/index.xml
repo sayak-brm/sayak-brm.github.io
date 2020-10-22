@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 08:15:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 09:12:20 +0530</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,10 +15,19 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 22 Oct 2020 08:15:28 +0530</pubDate>
+      <pubDate>Thu, 22 Oct 2020 09:12:20 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Patent - An unmanned aerial vehicle based method and system for patrolling over search and rescue area</title>
+      <link>/projects/in202031041280a/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/in202031041280a/</guid>
+      <description>Application Number: IN 202031041280 A Status: Published Date of Filing: 23/09/2020 Date of Publication: 16/10/2020 Applicants:  Prof. (Dr.) Prasant Kumar Pattnaik Dr. Suneeta Mohanty Dr. Sharmistha Roy Rupesh Pal Sayak Brahmachari Rupam Ganguli Sourendu Das    Abstract The system discloses an Unmanned Aerial Vehicles (UAVs) equipped with a radio communication module (SDR) to emulate a cellular base station and has a persistent connection to a ground control unit which directs and navigates said UAVs.</description>
     </item>
     
     <item>

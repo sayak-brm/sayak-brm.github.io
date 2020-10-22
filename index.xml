@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 08:15:28 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 09:12:20 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 22 Oct 2020 08:15:28 +0530</pubDate>
+      <pubDate>Thu, 22 Oct 2020 09:12:20 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
@@ -28,6 +28,15 @@
       
       <guid>/music/emergence/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Patent - An unmanned aerial vehicle based method and system for patrolling over search and rescue area</title>
+      <link>/projects/in202031041280a/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/projects/in202031041280a/</guid>
+      <description>Application Number: IN 202031041280 A Status: Published Date of Filing: 23/09/2020 Date of Publication: 16/10/2020 Applicants:  Prof. (Dr.) Prasant Kumar Pattnaik Dr. Suneeta Mohanty Dr. Sharmistha Roy Rupesh Pal Sayak Brahmachari Rupam Ganguli Sourendu Das    Abstract The system discloses an Unmanned Aerial Vehicles (UAVs) equipped with a radio communication module (SDR) to emulate a cellular base station and has a persistent connection to a ground control unit which directs and navigates said UAVs.</description>
     </item>
     
     <item>
@@ -105,17 +114,6 @@ main: custom_plugins: &amp;#34;/path/to/this/folder&amp;#34; Each plugin has its
       
       <guid>/posts/favorite-android-open-source-apps/</guid>
       <description>1. FastHub - A poweful GitHub client for Android My favorite open-source app is a highly customizable, feature-packed GitHub client for Android that I&amp;rsquo;ve never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I&amp;rsquo;ve seen before.</description>
-    </item>
-    
-    <item>
-      <title>Wi-Fi Ducky</title>
-      <link>/projects/oss/wifi_ducky/</link>
-      <pubDate>Wed, 14 Aug 2019 17:01:28 +0530</pubDate>
-      
-      <guid>/projects/oss/wifi_ducky/</guid>
-      <description>Wi-Fi Ducky Upload, save and run keystroke injections remotely with an ESP8266 + ATmega32u4
-Support me and my projects on Patreon! 
-Contents  Introduction  What it is How it works The benefits of adding Wi-Fi   Disclaimer Installation  Preparation ESP8266 Arduino ATmega32u4 Wire everything up Update ESP8266 over the Webinterface   How to use it Improvements License Sources and additional Links  Introduction What it is It&amp;rsquo;s a Wi-Fi controlled BadUSB device to remotely execute Ducky Scripts.</description>
     </item>
     
   </channel>

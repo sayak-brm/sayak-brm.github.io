@@ -40,6 +40,51 @@
     </item>
     
     <item>
+      <title>patent</title>
+      <link>/tags/patent/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/patent/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>sdr</title>
+      <link>/tags/sdr/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/sdr/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stingray</title>
+      <link>/tags/stingray/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/stingray/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tracking</title>
+      <link>/tags/tracking/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tracking/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>uav</title>
+      <link>/tags/uav/</link>
+      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/uav/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ai</title>
       <link>/tags/ai/</link>
       <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
@@ -54,51 +99,6 @@
       <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
       
       <guid>/tags/bettercap/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-learning</title>
-      <link>/tags/deep-learning/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/deep-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-neural-network</title>
-      <link>/tags/deep-neural-network/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/deep-neural-network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deep-reinforcement-learning</title>
-      <link>/tags/deep-reinforcement-learning/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/deep-reinforcement-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>handshakes</title>
-      <link>/tags/handshakes/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/handshakes/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>wpa-psk</title>
-      <link>/tags/wpa-psk/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/wpa-psk/</guid>
       <description></description>
     </item>
     
