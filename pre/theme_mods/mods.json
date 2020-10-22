@@ -1,7 +1,12 @@
 {
     "themes/hello-friend-ng/layouts/partials/head.html": [
         "{{ partial \"extra-head.html\" . }}\n{{- end }}\n",
-        "\n<link rel=\"manifest\" href=\"site.webmanifest\">\n<script type=\"module\">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>\n",
+        "\n<link rel=\"manifest\" href=\"/site.webmanifest\">\n",
+        false
+    ],
+    "themes/hello-friend-ng/layouts/index.html": [
+        "</main>\n{{ end }}",
+        "\n<script type=\"module\">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>",
         false
     ],
     "themes/hello-friend-ng/layouts/partials/footer.html": [
