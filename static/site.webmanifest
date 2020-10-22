@@ -37,6 +37,12 @@
             "src": "/images/i048.png",
             "type": "image/png",
             "sizes": "48x48"
+        },
+        {
+            "src": "/images/maskable_icon.png",
+            "type": "image/png",
+            "sizes": "1000x1000",
+            "purpose": "any maskable"
         }
     ]
 }
