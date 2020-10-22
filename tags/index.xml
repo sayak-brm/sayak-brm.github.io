@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 17 Oct 2020 00:00:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 18:13:46 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>backdoor</title>
+      <link>/tags/backdoor/</link>
+      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      
+      <guid>/tags/backdoor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>brute-force-attacks</title>
+      <link>/tags/brute-force-attacks/</link>
+      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      
+      <guid>/tags/brute-force-attacks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python3</title>
+      <link>/tags/python3/</link>
+      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      
+      <guid>/tags/python3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>remote-shell</title>
+      <link>/tags/remote-shell/</link>
+      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      
+      <guid>/tags/remote-shell/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reverse-shell</title>
+      <link>/tags/reverse-shell/</link>
+      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      
+      <guid>/tags/reverse-shell/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>edm</title>
@@ -54,51 +99,6 @@
       <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/sdr/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>stingray</title>
-      <link>/tags/stingray/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/stingray/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tracking</title>
-      <link>/tags/tracking/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tracking/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>uav</title>
-      <link>/tags/uav/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/uav/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>ai</title>
-      <link>/tags/ai/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/ai/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>bettercap</title>
-      <link>/tags/bettercap/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/tags/bettercap/</guid>
       <description></description>
     </item>
     
