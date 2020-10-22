@@ -5,8 +5,8 @@
         false
     ],
     "themes/hello-friend-ng/layouts/index.html": [
-        "</main>\n{{ end }}",
-        "\n<script type=\"module\">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>",
+        "</div>\n    </main>\n",
+        "\n<script type=\"module\">import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';const el = document.createElement('pwa-update');document.body.appendChild(el);</script>\n",
         false
     ],
     "themes/hello-friend-ng/layouts/partials/footer.html": [
