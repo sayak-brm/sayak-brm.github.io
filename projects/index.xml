@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 19:49:04 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2020 20:01:22 +0530</lastBuildDate>
     
 	<atom:link href="/projects/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,7 +15,7 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Thu, 22 Oct 2020 19:49:04 +0530</pubDate>
+      <pubDate>Thu, 22 Oct 2020 20:01:22 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
