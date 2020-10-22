@@ -11,6 +11,7 @@ tags:
 - favorites
 
 ---
+
 ### **1. FastHub - _A poweful GitHub client for Android_**
 
 My favorite open-source app is a highly customizable, feature-packed [GitHub](https://github.com/) client for Android that I've never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I've seen before.
