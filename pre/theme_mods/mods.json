@@ -1,0 +1,4 @@
+{
+    "themes/hello-friend-ng/layouts/partials/head.html":
+    ["{{ partial \"extra-head.html\" . }}\n{{- end }}\n", "<link rel=\"manifest\" href=\"site.webmanifest\">\n", 45]
+}
