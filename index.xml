@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Fri, 23 Oct 2020 16:53:21 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 18:02:31 +0530</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,23 +15,52 @@
     <item>
       <title>My Website</title>
       <link>/projects/sayak-brm.github.io/</link>
-      <pubDate>Fri, 23 Oct 2020 16:53:21 +0530</pubDate>
+      <pubDate>Sun, 29 Nov 2020 18:02:31 +0530</pubDate>
       
       <guid>/projects/sayak-brm.github.io/</guid>
       <description>My Website Available at  sayakb.com sayak-b.web.app sayak-b.firebaseapp.com sayak-brm.github.io  Build Status  Contents automatically generated from GitHub.</description>
     </item>
     
     <item>
+      <title>ShellBot2</title>
+      <link>/projects/shellbot2/</link>
+      <pubDate>Sun, 29 Nov 2020 17:40:58 +0530</pubDate>
+      
+      <guid>/projects/shellbot2/</guid>
+      <description>ShellBot2  Contents automatically generated from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Directus API V8</title>
+      <link>/projects/oss/directus-api/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
+      
+      <guid>/projects/oss/directus-api/</guid>
+      <description>Our Core team is quite small and can not maintain legacy versions of Directus. We&amp;rsquo;ll glady review any community pull-requests to this repository, but using this version is highly discouraged.
+ Usage To build this archive to a ready to use bundle, run the build.sh file
+  Contents automatically generated from GitHub.</description>
+    </item>
+    
+    <item>
+      <title>Pwnagotchi</title>
+      <link>/projects/oss/pwnagotchi/</link>
+      <pubDate>Wed, 18 Nov 2020 01:03:50 +0530</pubDate>
+      
+      <guid>/projects/oss/pwnagotchi/</guid>
+      <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
+Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
+    </item>
+    
+    <item>
       <title>ShellBot</title>
       <link>/projects/shellbot/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <pubDate>Fri, 30 Oct 2020 20:29:05 +0530</pubDate>
       
       <guid>/projects/shellbot/</guid>
       <description>ShellBot 
-An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
-A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
-This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
-The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
+This project may be deprecated soon! I am currently coding another reverse shell utility based on the principles of this project, and will replace this utility when completed. Find out more and contribute to the developement here.
+ ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
+A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.</description>
     </item>
     
     <item>
@@ -50,27 +79,6 @@ The ShellBot suite is designed in such a way that it will not stop till a connec
       
       <guid>/projects/in202031041280a/</guid>
       <description>Application Number: IN 202031041280 A Status: Published Date of Filing: 23/09/2020 Date of Publication: 16/10/2020 Applicants:  Prof. (Dr.) Prasant Kumar Pattnaik Dr. Suneeta Mohanty Dr. Sharmistha Roy Rupesh Pal Sayak Brahmachari Rupam Ganguli Sourendu Das    Abstract The system discloses an Unmanned Aerial Vehicles (UAVs) equipped with a radio communication module (SDR) to emulate a cellular base station and has a persistent connection to a ground control unit which directs and navigates said UAVs.</description>
-    </item>
-    
-    <item>
-      <title>Pwnagotchi</title>
-      <link>/projects/oss/pwnagotchi/</link>
-      <pubDate>Sat, 10 Oct 2020 03:28:28 +0530</pubDate>
-      
-      <guid>/projects/oss/pwnagotchi/</guid>
-      <description>Pwnagotchi Pwnagotchi is an A2C-based &amp;ldquo;AI&amp;rdquo; leveraging bettercap that learns from its surrounding WiFi environment to maximize the crackable WPA key material it captures (either passively, or by performing authentication and association attacks). This material is collected as PCAP files containing any form of handshake supported by hashcat, including PMKIDs, full and half WPA handshakes.
-Instead of merely playing Super Mario or Atari games like most reinforcement learning-based &amp;ldquo;AI&amp;rdquo; (yawn), Pwnagotchi tunes its parameters over time to get better at pwning WiFi things to in the environments you expose it to.</description>
-    </item>
-    
-    <item>
-      <title>Directus API</title>
-      <link>/projects/oss/directus-api/</link>
-      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
-      
-      <guid>/projects/oss/directus-api/</guid>
-      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
- Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
-Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
     </item>
     
     <item>
@@ -105,15 +113,6 @@ Ubuntu &amp;amp; Debian sudo apt-get update sudo apt-get install espeak-ng Other
       <description>These are user contributed plugins for pwnagotchi, some of them have not been completely tested by the dev team, use them at your own risk.
 In order to use these plugins, clone the repository anywhere on your unit and then add its path to /etc/pwnagotchi/config.yml as:
 main: custom_plugins: &amp;#34;/path/to/this/folder&amp;#34; Each plugin has its own configuration than must be part of the main.plugins section. If for instance you want to enable the auto_backup plugin, you need to edit your config.</description>
-    </item>
-    
-    <item>
-      <title>Top 10 Favorite Android Open Source Apps</title>
-      <link>/posts/favorite-android-open-source-apps/</link>
-      <pubDate>Tue, 01 Oct 2019 04:10:19 +0000</pubDate>
-      
-      <guid>/posts/favorite-android-open-source-apps/</guid>
-      <description>1. FastHub - A poweful GitHub client for Android My favorite open-source app is a highly customizable, feature-packed GitHub client for Android that I&amp;rsquo;ve never found lacking in any way yet. Regular updates and a well-designed interface lets me navigate across issues and repositories intuitively, and the different themes and endless options let me customize the app perfectly to my whims and fancies. With support for organizations and enterprise accounts, this app appeals to a lot more people than any other GitHub client for Android I&amp;rsquo;ve seen before.</description>
     </item>
     
   </channel>

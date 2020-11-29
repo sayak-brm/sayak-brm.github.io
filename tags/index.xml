@@ -7,98 +7,98 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 18:13:46 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 15:50:39 +0530</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>backdoor</title>
-      <link>/tags/backdoor/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <title>api</title>
+      <link>/tags/api/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/backdoor/</guid>
+      <guid>/tags/api/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>brute-force-attacks</title>
-      <link>/tags/brute-force-attacks/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <title>api-wrapper</title>
+      <link>/tags/api-wrapper/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/brute-force-attacks/</guid>
+      <guid>/tags/api-wrapper/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>python3</title>
-      <link>/tags/python3/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <title>cms</title>
+      <link>/tags/cms/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/python3/</guid>
+      <guid>/tags/cms/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>remote-shell</title>
-      <link>/tags/remote-shell/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <title>cms-framework</title>
+      <link>/tags/cms-framework/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/remote-shell/</guid>
+      <guid>/tags/cms-framework/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>reverse-shell</title>
-      <link>/tags/reverse-shell/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <title>content-management</title>
+      <link>/tags/content-management/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/reverse-shell/</guid>
+      <guid>/tags/content-management/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>edm</title>
-      <link>/tags/edm/</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      <title>database</title>
+      <link>/tags/database/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/edm/</guid>
+      <guid>/tags/database/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>music</title>
-      <link>/tags/music/</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      <title>database-management</title>
+      <link>/tags/database-management/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/music/</guid>
+      <guid>/tags/database-management/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>sayak b</title>
-      <link>/tags/sayak-b/</link>
-      <pubDate>Sat, 17 Oct 2020 00:00:00 +0530</pubDate>
+      <title>directus</title>
+      <link>/tags/directus/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/sayak-b/</guid>
+      <guid>/tags/directus/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>patent</title>
-      <link>/tags/patent/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>docs</title>
+      <link>/tags/docs/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/patent/</guid>
+      <guid>/tags/docs/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>sdr</title>
-      <link>/tags/sdr/</link>
-      <pubDate>Fri, 16 Oct 2020 00:00:00 +0000</pubDate>
+      <title>graphql</title>
+      <link>/tags/graphql/</link>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
-      <guid>/tags/sdr/</guid>
+      <guid>/tags/graphql/</guid>
       <description></description>
     </item>
     

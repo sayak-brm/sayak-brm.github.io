@@ -7,20 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Sat, 10 Oct 2020 00:39:15 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 29 Nov 2020 15:50:39 +0530</lastBuildDate>
     
 	<atom:link href="/tags/database-management/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Directus API</title>
+      <title>Directus API V8</title>
       <link>/projects/oss/directus-api/</link>
-      <pubDate>Sat, 10 Oct 2020 00:39:15 +0530</pubDate>
+      <pubDate>Sun, 29 Nov 2020 15:50:39 +0530</pubDate>
       
       <guid>/projects/oss/directus-api/</guid>
-      <description>IMPORTANT: You do not install this API directly, it is included in the Directus Suite, located here: directus/directus. This repository is only used to help organize the codebase.
- Description The Directus API is a PHP powered REST / GraphQL API that acts as a layer on top of a relational database.
-Installation / Usage IMPORTANT: Unless contributing to the project, you shouldn&amp;rsquo;t build the API from source. Use directus/directus instead.</description>
+      <description>Our Core team is quite small and can not maintain legacy versions of Directus. We&amp;rsquo;ll glady review any community pull-requests to this repository, but using this version is highly discouraged.
+ Usage To build this archive to a ready to use bundle, run the build.sh file
+  Contents automatically generated from GitHub.</description>
     </item>
     
   </channel>

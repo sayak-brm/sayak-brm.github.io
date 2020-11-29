@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Sayak B</copyright>
-    <lastBuildDate>Thu, 22 Oct 2020 18:13:46 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2020 20:29:05 +0530</lastBuildDate>
     
 	<atom:link href="/tags/reverse-shell/index.xml" rel="self" type="application/rss+xml" />
     
@@ -15,14 +15,13 @@
     <item>
       <title>ShellBot</title>
       <link>/projects/shellbot/</link>
-      <pubDate>Thu, 22 Oct 2020 18:13:46 +0530</pubDate>
+      <pubDate>Fri, 30 Oct 2020 20:29:05 +0530</pubDate>
       
       <guid>/projects/shellbot/</guid>
       <description>ShellBot 
-An advanced reverse shell written in Python3.  ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
-A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.
-This makes it easy for an SysAdmin to manage several computers with minimal setup in an internal network.
-The ShellBot suite is designed in such a way that it will not stop till a connection is achieved.</description>
+This project may be deprecated soon! I am currently coding another reverse shell utility based on the principles of this project, and will replace this utility when completed. Find out more and contribute to the developement here.
+ ShellBot is a cross-platform Remote Shell Suite where the Server can be managed by 1 Controller at a time.
+A server can accept several clients at once, and relay a chosen client&amp;rsquo;s shell to the controller.</description>
     </item>
     
   </channel>
