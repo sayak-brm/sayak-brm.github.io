@@ -1,5 +1,0 @@
-[{
-      "relation": ["delegate_permission/common.handle_all_urls"],
-      "target" : { "namespace": "android_app", "package_name": "com.sayakb",
-                   "sha256_cert_fingerprints": ["47:BE:1C:A7:6C:1C:10:DD:35:72:E5:D2:7F:FB:17:95:05:DE:10:DA:74:E1:F8:98:99:27:F6:D5:B1:46:E6:54"] }
-    }]

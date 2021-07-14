@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayak B</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="nav-container">
+            <header>
+                <a href="#" class="logo">Sayak B</a>
+
+                <nav>
+                    <ul>
+                        <li><a href="#">My publications</a></li>
+                        <li><a href="#">My skills</a></li>
+                        <li><a href="#">My projects</a></li>
+                    </ul>
+                </nav>
+            </header>
+
+            <div class="socials">
+                <ul>
+                    <li><a href="#"><i class="fab fa-keybase"></i></a></li>
+                    <li><a href="#"><i class="fab fa-github"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content">
+            <h1>Innovative Digital Experiences</h1>
+            <div class="meet">▼ Meet Sayak Brahmachari</div>
+        </div>
+    </div>
+
+    <section class="publications">
+        <div class="publication publication1">
+            <div class="left">
+                <p class="subtitle">Patent</p>
+                <a href="#" class="title">UAV based Search and Rescue Method</a>
+                <p class="desc">
+                    A group of UAVs equipped with a SDR equipment emulates cellular base stations to act as
+                    IMSI catchers, identifying nearby cellphones, and performing multilateration to get their location.
+                </p>
+            </div>
+            <a href="#" class="right"><img src="images/patent1.jpg" alt="Drone with SDR Equipment"></a>
+        </div>
+    </section>
+
+    <section class="skills">
+        <ul>
+            <li class="card">
+                <div class="icon one">
+                    <img src="images/lang.svg" alt="Programming Languages">
+                </div>
+                <p class="title">Software Engineering</p>
+                <p class="desc">Experienced in Python, JavaScript, C/C++, Docker, CI/CD and Linux Administration.</p>
+            </li>
+            <li class="card">
+                <div class="icon two">
+                    <img src="images/code.svg" alt="HTML Code Tag">
+                </div>
+                <p class="title">App/Web Developement</p>
+                <p class="desc">Experienced in HTML, CSS/SASS, MongoDB/Mongoose, Express.JS, React and NodeJS for
+                    full-stack development and React Native for app development.</p>
+            </li>
+            <li class="card">
+                <div class="icon three">
+                    <img src="images/iot.svg" alt="Programming Languages">
+                </div>
+                <p class="title">IoT & Embedded Systems</p>
+                <p class="desc">Experienced with Microcontroller and Embedded Linux platforms, and IoT Technologies.</p>
+            </li>
+        </ul>
+    </section>
+
+    <section class="projects">
+        <div class="project">
+            <div class="left">
+                <p class="subtitle">Project</p>
+                <a href="#" class="title">Project 1</a>
+                <p class="desc">
+                    Lorem Ipsum etc etc.
+                </p>
+            </div>
+            <a href="#" class="right"><img src="images/patent1.jpg" alt="Image"></a>
+        </div>
+
+        <div class="project">
+            <div class="left">
+                <p class="subtitle">Project</p>
+                <a href="#" class="title">Project 2</a>
+                <p class="desc">
+                    Lorem Ipsum etc etc.
+                </p>
+            </div>
+            <a href="#" class="right"><img src="images/patent1.jpg" alt="Image"></a>
+        </div>
+
+        <div class="project">
+            <div class="left">
+                <p class="subtitle">Project</p>
+                <a href="#" class="title">Project 3</a>
+                <p class="desc">
+                    Lorem Ipsum etc etc.
+                </p>
+            </div>
+            <a href="#" class="right"><img src="images/patent1.jpg" alt="Image"></a>
+        </div>
+    </section>
+
+    <script src="https://kit.fontawesome.com/9c46835d52.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+
+    <script>
+        VANTA.GLOBE({
+            el: ".content",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3fff4a,
+            color2: 0x8fffff,
+            backgroundColor: 0x7af5f
+        });
+    </script>
+</body>
+
+</html>
