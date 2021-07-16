@@ -96,7 +96,7 @@ nav ul a {
 }
 
 section {
-  padding: 3.5em 2em;
+  padding: 3em 2em;
   text-align: center;
 }
 
@@ -229,11 +229,16 @@ section {
   }
   .publications .publication .right, .publications .project .right, .projects .publication .right, .projects .project .right {
     margin-left: 2em;
-    margin-top: 1em;
+  }
+  .publications .publication .right, .projects .publication .right {
+    margin-top: 2em;
+  }
+  .publications .project .right, .projects .project .right {
+    margin-bottom: 2em;
   }
   .skills {
     margin-top: -5em;
-    margin-bottom: -7em;
+    margin-bottom: -5em;
   }
   .skills ul {
     display: -ms-grid;

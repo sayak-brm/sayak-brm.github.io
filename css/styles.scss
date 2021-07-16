@@ -84,7 +84,7 @@ nav {
 }
 
 section {
-    padding: 3.5em 2em;
+    padding: 3em 2em;
     text-align: center;
 }
 
@@ -216,14 +216,21 @@ section {
 
             .right {
                 margin-left: 2em;
-                margin-top: 1em;
             }
+        }
+
+        .publication .right {
+            margin-top: 2em;
+        }
+
+        .project .right {
+            margin-bottom: 2em;
         }
     }
     
     .skills {
         margin-top: -5em;
-        margin-bottom: -7em;
+        margin-bottom: -5em;
 
         ul {
             display: grid;
