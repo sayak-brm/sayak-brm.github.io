@@ -18,9 +18,9 @@
 
                 <nav>
                     <ul>
-                        <li><a href="#">My publications</a></li>
-                        <li><a href="#">My skills</a></li>
-                        <li><a href="#">My projects</a></li>
+                        <li><a href="/resume.pdf">My resume</a></li>
+                        <li><a href="#skills">My skills</a></li>
+                        <li><a href="#projects">My projects</a></li>
                     </ul>
                 </nav>
             </header>
@@ -37,11 +37,11 @@
 
         <div class="content">
             <h1>Innovative Digital Experiences</h1>
-            <div class="meet">▼ Meet Sayak Brahmachari</div>
+            <div class="meet"><a href="#publications">▼ Meet Sayak Brahmachari</a></div>
         </div>
     </div>
 
-    <section class="publications">
+    <section class="publications" id="publications">
         <div class="publication publication1">
             <div class="left">
                 <p class="subtitle">Patent</p>
@@ -55,7 +55,7 @@
         </div>
     </section>
 
-    <section class="skills">
+    <section class="skills" id="skills">
         <ul>
             <li class="card">
                 <div class="icon one">
@@ -82,7 +82,7 @@
         </ul>
     </section>
 
-    <section class="projects">
+    <section class="projects" id="projects">
         <div class="project">
             <div class="left">
                 <p class="subtitle">Project</p>
@@ -117,11 +117,20 @@
         </div>
     </section>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://kit.fontawesome.com/9c46835d52.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
 
     <script>
+        $(document).on('click', 'a[href^="#"]', function (event) {
+            event.preventDefault();
+
+            $('html, body').animate({
+                scrollTop: $($.attr(this, 'href')).offset().top
+            }, 500);
+        });
+
         VANTA.GLOBE({
             el: ".content",
             mouseControls: true,

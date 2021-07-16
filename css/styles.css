@@ -57,6 +57,10 @@ img {
   padding: 4em;
 }
 
+.main .content .meet a {
+  color: #bfffa6;
+}
+
 .main .content .vanta-canvas {
   display: none;
 }
@@ -173,6 +177,15 @@ section {
 
 .skills ul li .icon.three {
   width: 75px;
+}
+
+.footer {
+  background: #07af5f;
+  color: white;
+}
+
+.footer a {
+  color: #bfffa6;
 }
 
 @media only screen and (min-width: 800px) {

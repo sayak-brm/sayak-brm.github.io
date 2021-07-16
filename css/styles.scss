@@ -49,6 +49,10 @@ img {
         text-align: center;
         padding: 4em;
 
+        .meet a {
+            color: #bfffa6;
+        }
+
         .vanta-canvas {
             display: none;
         }
@@ -159,6 +163,13 @@ section {
             }
         }
     }
+}
+
+.footer {
+    background: #07af5f;
+    color: white;
+
+    a { color: #bfffa6; }
 }
 
 @media only screen and (min-width: 800px) {
