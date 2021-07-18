@@ -37,7 +37,7 @@
         </div>
 
         <div class="content">
-            <h1>Innovative Digital Experiences</h1>
+            <h1 id="heroheader"></h1>
             <div class="meet"><a href="#work">▼ Meet Sayak Brahmachari</a></div>
         </div>
     </div>
@@ -169,6 +169,7 @@
     <script src="https://kit.fontawesome.com/9c46835d52.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.globe.min.js"></script>
+    <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
 
     <script>
         $(document).on('click', 'a[href^="#"]', function (event) {
@@ -192,6 +193,34 @@
             color2: 0x8fffff,
             backgroundColor: 0x7af5f
         });
+
+        var app = document.getElementById("heroheader");
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('College Student')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('UI/UX Designer')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('Electronics Engineer')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('DIY Hobbyist')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('Programmer')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('Music Producer')
+            .pauseFor(1500)
+            .deleteAll()
+            .typeString('App/Web Developer')
+            .pauseFor(1500)
+            .start();
     </script>
 </body>
 
