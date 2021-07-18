@@ -147,7 +147,7 @@ section {
 .skills ul li {
   display: -ms-grid;
   display: grid;
-  place-content: center;
+  place-content: start;
   background: white;
   min-height: 320px;
   padding: 1em 2em;
