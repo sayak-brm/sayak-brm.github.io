@@ -196,29 +196,39 @@
 
         var app = document.getElementById("heroheader");
 
+        header_texts = [
+            'College Student',
+            'UI/UX Designer',
+            'E&I Engineer',
+            'DIY Hobbyist',
+            'Programmer',
+            'Music Producer',
+            'App/Web Developer'
+        ]
+
         var typewriter = new Typewriter(app, {
             loop: true
         });
 
-        typewriter.typeString('College Student')
+        typewriter.typeString(header_texts[0])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('UI/UX Designer')
+            .typeString(header_texts[1])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('Electronics Engineer')
+            .typeString(header_texts[2])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('DIY Hobbyist')
+            .typeString(header_texts[3])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('Programmer')
+            .typeString(header_texts[4])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('Music Producer')
+            .typeString(header_texts[5])
             .pauseFor(1500)
             .deleteAll()
-            .typeString('App/Web Developer')
+            .typeString(header_texts[6])
             .pauseFor(1500)
             .start();
     </script>
